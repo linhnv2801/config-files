@@ -6,6 +6,8 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set wildmenu
+:set wildmode=longest:full
 
 call plug#begin()
 
@@ -21,6 +23,15 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+Plug 'nvim-lua/completion-nvim'
+Plug 'gcmt/wildfire.vim'
+Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
+Plug 'https://github.com/junegunn/fzf'
+
+Plug 'https://github.com/glepnir/dashboard-nvim'
+Plug 'https://github.com/davidhalter/jedi-vim'
+Plug 'github/copilot.vim'
+Plug 'https://github.com/tpope/vim-fugitive'
 
 set encoding=UTF-8
 
@@ -28,8 +39,11 @@ call plug#end()
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+nnoremap <C-r> :NERDTreeRefreshRoot<CR>
+nnoremap <C-g> :NERDTreeToggle<CR>
+nnoremap <C-m> :ls<CR>
+nnoremap <C-z> :FZF<CR>
+nnoremap <C-t> :terminal<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
