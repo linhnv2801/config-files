@@ -5,7 +5,7 @@
 :set shiftwidth=4
 :set smarttab
 :set softtabstop=4
-:set mouse=a
+:set mouse=a 
 :set wildmenu
 :set wildmode=longest:full
 
@@ -28,25 +28,42 @@ Plug 'gcmt/wildfire.vim'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
 
-Plug 'https://github.com/glepnir/dashboard-nvim'
+"Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'github/copilot.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
+"Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
+
 
 set encoding=UTF-8
 
 call plug#end()
 
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-d> :NERDTreeFocus<CR>
+nnoremap <C-k> :NERDTreeFind<CR>
+nnoremap <C-f> :Ag<CR>
 nnoremap <C-r> :NERDTreeRefreshRoot<CR>
-nnoremap <C-g> :NERDTreeToggle<CR>
-nnoremap <C-m> :ls<CR>
-nnoremap <C-z> :FZF<CR>
+" nnoremap <C-g> :NERDTreeToggle<CR>
+nnoremap <C-l> :ls<CR>
+nnoremap <C-p> :bprev<CR>
+nnoremap <C-h> :bnext<CR>
+nnoremap <C-g> :FZF<CR>
 nnoremap <C-t> :terminal<CR>
 
-nmap <F8> :TagbarToggle<CR>
+" " Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
 
+" " Paste from clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
+
+nmap <F8> :TagbarToggle<CR>
+:set clipboard+=unnamedplus
 :set completeopt-=preview " For No Previews
 
 :colorscheme jellybeans
