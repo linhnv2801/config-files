@@ -37,7 +37,7 @@ Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'github/copilot.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
 "Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
-
+Plug 'fei6409/log-highlight.nvim'
 
 set encoding=UTF-8
 
