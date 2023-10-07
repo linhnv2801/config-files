@@ -38,6 +38,14 @@ Plug 'github/copilot.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
 "Plug 'neoclide/coc-java', {'do': 'yarn install --frozen-lockfile'}
 Plug 'fei6409/log-highlight.nvim'
+Plug 'tmux-plugins/vim-tmux'
+Plug 'williamboman/mason.nvim'
+" If you have nodejs and yarn
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'jpalardy/vim-slime'
+Plug 'hanschen/vim-ipython-cell'
+Plug 'preservim/vimux'
 
 set encoding=UTF-8
 
@@ -120,3 +128,4 @@ function! ShowDocumentation()
     call feedkeys('H', 'in')
   endif
 endfunction
+
