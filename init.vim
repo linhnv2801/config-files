@@ -25,7 +25,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
-"Plug 'nvim-lua/completion-nvim'
+Plug 'nvim-lua/completion-nvim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -143,4 +143,25 @@ endfunction
 
 nmap <silent> <Leader>s <Plug>SearchNormal
 vmap <silent> <Leader>s <Plug>SearchVisual
+" main one
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+" 9000+ Snippets
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+
+" lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
+" Need to **configure separately**
+
+Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
+" - shell repl
+" - nvim lua api
+" - scientific calculator
+" - comment banner
+" - etc
+
+Plug 'nanotee/sqls.nvim'
+Plug 'ekickx/clipboard-image.nvim'
+Plug 'samodostal/image.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'm00qek/baleia.nvim', { 'tag': 'v1.3.0' }
+Plug 'chrisbra/csv.vim'
 
