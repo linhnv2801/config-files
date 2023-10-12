@@ -57,6 +57,7 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'ray-x/guihua.lua'  "lua GUI lib
 Plug 'ray-x/forgit.nvim'
 Plug 'marioortizmanero/adoc-pdf-live.nvim'
+Plug 'voldikss/vim-browser-search'
 
 set encoding=UTF-8
 
@@ -139,4 +140,7 @@ function! ShowDocumentation()
     call feedkeys('H', 'in')
   endif
 endfunction
+
+nmap <silent> <Leader>s <Plug>SearchNormal
+vmap <silent> <Leader>s <Plug>SearchVisual
 
