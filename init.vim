@@ -8,6 +8,8 @@
 :set mouse=a 
 :set wildmenu
 :set wildmode=longest:full
+:set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+:set nolist
 
 call plug#begin()
 
@@ -54,6 +56,7 @@ Plug 'sindrets/diffview.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'ray-x/guihua.lua'  "lua GUI lib
 Plug 'ray-x/forgit.nvim'
+Plug 'marioortizmanero/adoc-pdf-live.nvim'
 
 set encoding=UTF-8
 
