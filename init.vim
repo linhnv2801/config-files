@@ -46,6 +46,14 @@ Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jpalardy/vim-slime'
 Plug 'hanschen/vim-ipython-cell'
 Plug 'preservim/vimux'
+Plug 'itspriddle/vim-shellcheck'
+Plug 'nvim-telescope/telescope.nvim' " optional
+Plug 'cuducos/yaml.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'sindrets/diffview.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'ray-x/guihua.lua'  "lua GUI lib
+Plug 'ray-x/forgit.nvim'
 
 set encoding=UTF-8
 
