@@ -26,3 +26,14 @@ require("gruvbox").setup({
   },
 })
 vim.cmd("colorscheme gruvbox")
+require("neo-tree").setup({
+  filesystem = {
+    filtered_items = {
+      visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
+      hide_dotfiles = true,
+      hide_gitignored = true,
+    },
+    -- unrelated
+  },
+})
+require("image_preview").setup({})
