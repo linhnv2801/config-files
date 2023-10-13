@@ -58,6 +58,27 @@ Plug 'ray-x/guihua.lua'  "lua GUI lib
 Plug 'ray-x/forgit.nvim'
 Plug 'marioortizmanero/adoc-pdf-live.nvim'
 Plug 'voldikss/vim-browser-search'
+Plug 'nanotee/sqls.nvim'
+Plug 'ekickx/clipboard-image.nvim'
+Plug 'samodostal/image.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'm00qek/baleia.nvim', { 'tag': 'v1.3.0' }
+Plug 'chrisbra/csv.vim'
+" main one
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+" 9000+ Snippets
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+
+" lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
+" Need to **configure separately**
+
+Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
+" - shell repl
+" - nvim lua api
+" - scientific calculator
+" - comment banner
+" - etc
+
 
 set encoding=UTF-8
 
@@ -143,25 +164,5 @@ endfunction
 
 nmap <silent> <Leader>s <Plug>SearchNormal
 vmap <silent> <Leader>s <Plug>SearchVisual
-" main one
-Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
-" 9000+ Snippets
-Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 
-" lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
-" Need to **configure separately**
-
-Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
-" - shell repl
-" - nvim lua api
-" - scientific calculator
-" - comment banner
-" - etc
-
-Plug 'nanotee/sqls.nvim'
-Plug 'ekickx/clipboard-image.nvim'
-Plug 'samodostal/image.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'm00qek/baleia.nvim', { 'tag': 'v1.3.0' }
-Plug 'chrisbra/csv.vim'
 
