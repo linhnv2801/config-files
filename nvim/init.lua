@@ -16,3 +16,13 @@ require("lazy").setup({
     end,
   },
 })
+
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
+require("gruvbox").setup({
+  overrides = {
+    -- ["@lsp.type.method"] = { bg = "#ff9900" },
+    -- ["@comment.lua"] = { bg = "#000000" },
+  },
+})
+vim.cmd("colorscheme gruvbox")
