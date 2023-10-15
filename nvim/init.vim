@@ -80,7 +80,8 @@ Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 " - etc
 Plug 'lewis6991/gitsigns.nvim' " OPTIONAL: for git status
 Plug 'nvim-tree/nvim-web-devicons' " OPTIONAL: for file icons
-Plug 'romgrk/barbar.nvim'
+Plug 'romgrk/barbar.nvim' 
+Plug 'puremourning/vimspector'
 
 
 set encoding=UTF-8
