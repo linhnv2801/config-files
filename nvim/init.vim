@@ -78,6 +78,9 @@ Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 " - scientific calculator
 " - comment banner
 " - etc
+Plug 'lewis6991/gitsigns.nvim' " OPTIONAL: for git status
+Plug 'nvim-tree/nvim-web-devicons' " OPTIONAL: for file icons
+Plug 'romgrk/barbar.nvim'
 
 
 set encoding=UTF-8
