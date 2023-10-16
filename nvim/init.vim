@@ -61,7 +61,6 @@ Plug 'voldikss/vim-browser-search'
 Plug 'nanotee/sqls.nvim'
 Plug 'ekickx/clipboard-image.nvim'
 Plug 'samodostal/image.nvim'
-Plug 'nvim-lua/plenary.nvim'
 Plug 'm00qek/baleia.nvim', { 'tag': 'v1.3.0' }
 Plug 'chrisbra/csv.vim'
 " main one
@@ -82,6 +81,10 @@ Plug 'lewis6991/gitsigns.nvim' " OPTIONAL: for git status
 Plug 'nvim-tree/nvim-web-devicons' " OPTIONAL: for file icons
 Plug 'romgrk/barbar.nvim' 
 Plug 'puremourning/vimspector'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-media-files.nvim'
 
 
 set encoding=UTF-8
