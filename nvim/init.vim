@@ -86,7 +86,6 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'
 
-
 set encoding=UTF-8
 
 call plug#end()
@@ -101,6 +100,7 @@ nnoremap <C-p> :bprev<CR>
 nnoremap <C-h> :bnext<CR>
 nnoremap <C-g> :FZF<CR>
 nnoremap <C-t> :terminal<CR>
+nnoremap <F5> :CocCommand prettier.forceFormatDocument<CR>
 
 " " Copy to clipboard
 vnoremap  <leader>y  "+y
@@ -172,4 +172,5 @@ endfunction
 nmap <silent> <Leader>s <Plug>SearchNormal
 vmap <silent> <Leader>s <Plug>SearchVisual
 
+let NERDTreeShowHidden=1
 
