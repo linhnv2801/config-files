@@ -85,6 +85,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'
+Plug 'junegunn/vim-easy-align'
 
 set encoding=UTF-8
 
@@ -171,6 +172,7 @@ endfunction
 
 nmap <silent> <Leader>s <Plug>SearchNormal
 vmap <silent> <Leader>s <Plug>SearchVisual
-
+nmap ga <Plug>(EasyAlign)
+xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
 
