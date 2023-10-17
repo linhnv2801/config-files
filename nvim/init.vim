@@ -10,6 +10,7 @@
 :set wildmode=longest:full
 :set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 :set nolist
+:set modifiable
 
 call plug#begin()
 
