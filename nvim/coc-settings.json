@@ -1,6 +1,29 @@
 {
   "snippets.ultisnips.pythonPrompt": false,
-  "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home",
-   "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "js"],
-   "python.jediEnabled": false
+  "coc.preferences.formatOnSave": true,
+  "python.jediEnabled": false,
+  "java.enabled": true,
+  "java.jdt.ls.statusIcons": {
+    "busy": "Busy",
+    "ready": "OK",
+    "warning": "Warning",
+    "Error": "Error"
+  },
+  "java.saveActions.organizeImports": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.signatureHelp.description.enabled": false,
+  "java.implementationsCodeLens.enabled": true,
+  "java.maxConcurrentBuilds": 3,
+  "semanticTokens.enable": true,
+  "java.jdt.ls.java.home": "/Users/linh/Downloads/Setups/jdk-17.0.9.jdk/Contents/Home",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.import.maven.enabled": true,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+  "java.format.onType.enabled": true,
+  "java.completion.guessMethodArguments": true,
+  "java.codeGeneration.useBlocks": true,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.signatureHelp.enabled": true,
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.maven.downloadSources": true
 }

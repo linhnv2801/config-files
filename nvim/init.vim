@@ -26,7 +26,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
-Plug 'nvim-lua/completion-nvim'
+" Plug 'nvim-lua/completion-nvim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -52,7 +52,7 @@ Plug 'preservim/vimux'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'nvim-telescope/telescope.nvim' " optional
 Plug 'cuducos/yaml.nvim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sindrets/diffview.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'ray-x/guihua.lua'  "lua GUI lib
@@ -60,8 +60,8 @@ Plug 'ray-x/forgit.nvim'
 Plug 'marioortizmanero/adoc-pdf-live.nvim'
 Plug 'voldikss/vim-browser-search'
 Plug 'nanotee/sqls.nvim'
-Plug 'ekickx/clipboard-image.nvim'
-Plug 'samodostal/image.nvim'
+" Plug 'ekickx/clipboard-image.nvim'
+" Plug 'samodostal/image.nvim'
 Plug 'm00qek/baleia.nvim', { 'tag': 'v1.3.0' }
 Plug 'chrisbra/csv.vim'
 " main one
@@ -87,7 +87,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'
 Plug 'junegunn/vim-easy-align'
-
+Plug 'gregsexton/gitv', {'on': ['Gitv']}
 set encoding=UTF-8
 
 call plug#end()
@@ -102,7 +102,7 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-h> :bnext<CR>
  nnoremap <C-g> :FZF<CR>
  nnoremap <C-t> :terminal<CR>
-nnoremap <F5> :CocCommand prettier.forceFormatDocument<CR>
+nnoremap <F5> :CocCommand prettier.formatFile<CR>
 
 " " Copy to clipboard
 vnoremap  <leader>y  "+y
