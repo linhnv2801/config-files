@@ -175,5 +175,5 @@ nmap <silent> <Leader>s <Plug>SearchNormal
 vmap <silent> <Leader>s <Plug>SearchVisual
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
-let NERDTreeShowHidden=1
+" let NERDTreeShowHidden=1
 

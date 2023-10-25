@@ -2,6 +2,7 @@
   "snippets.ultisnips.pythonPrompt": false,
   "coc.preferences.formatOnSave": true,
   "python.jediEnabled": false,
+  "python.formatting.blackPath": "/Users/linh/anaconda3/bin/black",
   "java.enabled": true,
   "java.jdt.ls.statusIcons": {
     "busy": "Busy",
@@ -14,7 +15,9 @@
   "java.signatureHelp.description.enabled": false,
   "java.implementationsCodeLens.enabled": true,
   "java.maxConcurrentBuilds": 3,
+  "java.codeGeneration.generateComments": true,
   "semanticTokens.enable": true,
+  "java.typeHierarchy.lazyLoad": false,
   "java.jdt.ls.java.home": "/Users/linh/Downloads/Setups/jdk-17.0.9.jdk/Contents/Home",
   "java.compile.nullAnalysis.mode": "automatic",
   "java.import.maven.enabled": true,
