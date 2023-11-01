@@ -94,6 +94,7 @@ call plug#end()
 
 "nnoremap <C-d> :NERDTreeFocus<CR>
 nnoremap <C-k> :NERDTreeFind<CR>
+nnoremap <C-c> :NERDTreeClose<CR>
 "nnoremap <C-f> :Ag<CR>
 nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-g> :NERDTreeToggle<CR>
