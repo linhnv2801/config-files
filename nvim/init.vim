@@ -129,9 +129,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "
-" :CocInstall coc-python coc-json coc-java coc-lua coc-css coc-tsserver
-" coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd
-" :CocInstall coc-snippets
+" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
