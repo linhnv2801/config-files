@@ -22,7 +22,7 @@
   "java.jdt.ls.lombokSupport.enabled": true,
   "java.compile.nullAnalysis.mode": "automatic",
   "java.import.maven.enabled": true,
-  "java.jdt.ls.vmargs": "-javaagent:/Users/linh/Downloads/Setups/lombok.jar=jarPath=/Users/linh/Downloads/Setups/lombok.jar -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable -javaagent:\"/Users/linh/.config/coc/extensions/coc-lombok-data/server/lombok.jar\"",
+  "java.jdt.ls.vmargs": "-javaagent:/Users/linh/Downloads/Setups/lombok.jar=jarPath=/Users/linh/Downloads/Setups/lombok.jar -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
   "java.format.onType.enabled": true,
   "java.completion.guessMethodArguments": true,
   "java.codeGeneration.useBlocks": true,
