@@ -87,6 +87,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-media-files.nvim'
 Plug 'junegunn/vim-easy-align'
 Plug 'gregsexton/gitv', {'on': ['Gitv']}
+Plug 'tpope/vim-fugitive'
+Plug 'junegunn/gv.vim'
 set encoding=UTF-8
 
 call plug#end()
@@ -104,7 +106,7 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-t> :terminal<CR>
 nnoremap <F5> :CocCommand prettier.formatFile<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
-nnoremap <C-K> :MarkdownPreview<CR>
+nnoremap <F7> :MarkdownPreview<CR>
 
 
 " " Copy to clipboard
