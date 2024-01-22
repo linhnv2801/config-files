@@ -11,7 +11,6 @@
 :set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 :set nolist
 :set modifiable
-
 call plug#begin()
 
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
@@ -104,6 +103,8 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-g> :FZF<CR>
  nnoremap <C-t> :terminal<CR>
 nnoremap <F5> :CocCommand prettier.formatFile<CR>
+nnoremap <C-P> :CocCommand swagger.render<CR>
+
 
 " " Copy to clipboard
 vnoremap  <leader>y  "+y
@@ -129,7 +130,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "
-" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets
+" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets coc-swagger coc-python
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
@@ -175,4 +176,5 @@ vmap <silent> <Leader>s <Plug>SearchVisual
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
+
 
