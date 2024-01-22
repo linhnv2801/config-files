@@ -104,6 +104,7 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-t> :terminal<CR>
 nnoremap <F5> :CocCommand prettier.formatFile<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
+nnoremap <C-K> :MarkdownPreview<CR>
 
 
 " " Copy to clipboard
