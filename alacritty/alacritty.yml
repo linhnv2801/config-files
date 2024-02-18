@@ -28,12 +28,6 @@ colors:
     white: "#ECEFF4"
   # background_opacity: 1.0
 
-cursor:
-  text: "0x232731"
-  cursor: "0xECEFF4"
-
-
-
 font:
   # The normal (roman) font face to use.
   normal:
@@ -67,7 +61,7 @@ window:
   # scrolling:
   #   # Maximum number of lines in the scrollback buffer.
   #   # Specifying '0' will disable scrolling.
-  history: 10000
+
   #   # Number of lines the viewport will move for every line scrolled when
   #   # scrollback is enabled (history > 0).
   #   multiplier: 10
@@ -76,9 +70,7 @@ window:
   # draw_bold_text_with_bright_colors: true
 
   # selection:
-  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
-  save_to_clipboard: true
-  live_config_reload: true
+
 key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
@@ -89,5 +81,3 @@ key_bindings:
   - { key: Minus, mods: Control, action: DecreaseFontSize }
   # - { key: N, mods: Control, action: SpawnNewInstance }
 
-shell:
-  program: "C:\\Windows\\System32\\wsl.exe"

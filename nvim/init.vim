@@ -1,5 +1,5 @@
 :set number
-:set relativenumber
+" :set relativenumber
 :set autoindent
 :set tabstop=4
 :set shiftwidth=4
@@ -89,6 +89,8 @@ Plug 'junegunn/vim-easy-align'
 Plug 'gregsexton/gitv', {'on': ['Gitv']}
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
+Plug 'mfussenegger/nvim-dap'
+Plug 'habamax/vim-asciidoctor'
 set encoding=UTF-8
 
 call plug#end()
@@ -106,7 +108,9 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-t> :terminal<CR>
 nnoremap <F5> :CocCommand prettier.formatFile<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
+nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
+nnoremap <F8> :%!jq -c .<CR>
 
 
 " " Copy to clipboard
@@ -179,5 +183,4 @@ vmap <silent> <Leader>s <Plug>SearchVisual
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
-
 
