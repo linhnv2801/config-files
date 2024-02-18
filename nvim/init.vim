@@ -110,7 +110,7 @@ nnoremap <F5> :CocCommand prettier.formatFile<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
 nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
-nnoremap <F8> :%!jq -c .<CR>
+nnoremap <F9> :%!jq -c .<CR>
 
 
 " " Copy to clipboard
