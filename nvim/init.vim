@@ -91,6 +91,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 Plug 'mfussenegger/nvim-dap'
 Plug 'habamax/vim-asciidoctor'
+Plug 'tpope/vim-dadbod'
 set encoding=UTF-8
 
 call plug#end()
