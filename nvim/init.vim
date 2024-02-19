@@ -106,10 +106,12 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-h> :bnext<CR>
  nnoremap <C-g> :FZF<CR>
  nnoremap <C-t> :terminal<CR>
+
 nnoremap <F5> :CocCommand prettier.formatFile<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
 nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
+nmap <F8> :TagbarToggle<CR>
 nnoremap <F9> :%!jq -c .<CR>
 
 
@@ -125,7 +127,6 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-nmap <F8> :TagbarToggle<CR>
 :set clipboard+=unnamedplus
 :set completeopt-=preview " For No Previews
 
