@@ -53,6 +53,6 @@ bind-key -n F2 attach-session -t oms
 bind-key -n F3 attach-session -t tms
 bind-key -n F4 attach-session -t config
 bind-key -n F10 attach-session -t scs
-bind-key -n F11 attach-session -t quarkus
+bind-key -n F11 attach-session -t vtp
 
 
