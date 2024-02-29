@@ -76,7 +76,7 @@ y = 2
 
 [shell]
 program = "/bin/zsh"
-args = ["-c", "ssh linhnv@fedora"]
+args = ["-c", "ssh linh@fedora"]
 #[window]
 #	#startup_mode= "Fullscreen"
 #	decorations="none"
