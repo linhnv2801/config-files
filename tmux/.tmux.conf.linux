@@ -2,7 +2,7 @@
 set -g @plugin 'tmux-plugins/tpm'
 
 set -g @sysstat_swap_view_tmpl '#{swap.used}/#{swap.total}'
-set -g status-right '#[bg=yellow]#(tmux display-message -p "#{pane_current_path}" | sed "s#$HOME#~#g")#[bg=yellow]#{forecast}#[bg=cyan]#{df_avail}#{cpu_bg_color} CPU:#{cpu_percentage} #{ram_bg_color} RAM:#{ram_percentage}#{gpu_temp_bg_color}Temp:#{cpu_temp}#{forecast}'
+set -g status-right '#[bg=yellow]#(tmux display-message -p "#{pane_current_path}" | sed "s#$HOME#~#g")#[bg=yellow]#{forecast}#[bg=cyan]#{df_avail}#{cpu_bg_color} CPU:#{cpu_percentage} #{ram_bg_color} RAM:#{ram_percentage}#{cpu_temp_bg_color}Temp:#{cpu_temp}'
 
 
 set -g status-right-length 420
@@ -49,11 +49,13 @@ bind h select-pane -L
 bind l select-pane -R
 
 set -g mouse on
-bind-key -n F1 attach-session -t tutorial
+bind-key -n F1 attach-session -t vtp
 bind-key -n F2 attach-session -t oms
 bind-key -n F3 attach-session -t tms
-bind-key -n F4 attach-session -t config
-bind-key -n F10 attach-session -t scs
-bind-key -n F11 attach-session -t vtp 
+bind-key -n F4 attach-session -t scs
+bind-key -n F10 attach-session -t config
+bind-key -n F11 attach-session -t tutorial 
 
 
+set-option -sg escape-time 10
+set-option -g focus-events on
