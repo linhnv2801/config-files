@@ -49,3 +49,9 @@ bind l select-pane -R
 
 set -g mouse on
 
+bind-key -n F1 attach-session -t tutorial
+bind-key -n F2 attach-session -t oms
+bind-key -n F3 attach-session -t tms
+bind-key -n F4 attach-session -t config
+bind-key -n F10 attach-session -t scs
+bind-key -n F11 attach-session -t vtp
