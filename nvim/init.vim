@@ -43,7 +43,8 @@ Plug 'fei6409/log-highlight.nvim'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'williamboman/mason.nvim'
 " If you have nodejs and yarn
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jpalardy/vim-slime'
 Plug 'hanschen/vim-ipython-cell'
@@ -51,7 +52,7 @@ Plug 'preservim/vimux'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'nvim-telescope/telescope.nvim' " optional
 Plug 'cuducos/yaml.nvim'
-" Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'sindrets/diffview.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'ray-x/guihua.lua'  "lua GUI lib
@@ -67,6 +68,7 @@ Plug 'chrisbra/csv.vim'
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+Plug 'f-person/git-blame.nvim'
 
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
@@ -114,6 +116,8 @@ nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
 nmap <F8> :TagbarToggle<CR>
 nnoremap <F9> :%!jq -c .<CR>
+nnoremap <S-F1> :GitBlameEnable<CR>
+nnoremap <C-F1> :GitBlameDisable<CR>
 
 
 " " Copy to clipboard
@@ -185,4 +189,4 @@ vmap <silent> <Leader>s <Plug>SearchVisual
 nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
-
+let g:gitblame_enabled = 0
