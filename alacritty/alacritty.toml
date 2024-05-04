@@ -76,7 +76,8 @@ y = 2
 
 [shell]
 program = "/bin/zsh"
-# args = ["-c", "ssh linh@arch"]
+args = ["-c", "ssh linh@fedora"]
+# args = ["-c", "ssh linhnv@windows-vtp"]
 #[window]
 #	#startup_mode= "Fullscreen"
 #	decorations="none"
