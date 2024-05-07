@@ -69,7 +69,7 @@ Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'f-person/git-blame.nvim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+Plug 'emakman/nvim-latex-previewer'
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
 
