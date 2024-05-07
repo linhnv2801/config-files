@@ -125,11 +125,17 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 source ~/.bash_profile
+source ~/.profile
 source ~/.bashrc
-export HAS_GPU=0
-tmux-window-name() {
-	($TMUX_PLUGIN_MANAGER_PATH/tmux-window-name/scripts/rename_session_windows.py &)
-}
 
-#add-zsh-hook chpwd tmux-window-name
 
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export ELASTIC_PASSWORD_MAC="ZxLHZ4+f*h6ri0AYOJFM" # password Mac os
+export ELASTIC_HOST_MAC="https://localhost:9200" # host Mac os
+export ELASTIC_PASSWORD_ARCH="KZaC=kiaLowFJ-dXpD2N" # password Arch linux
+export ELASTIC_HOST_ARCH="https://100.65.238.55:9200" # host Arch linux 
+
+export ELASTIC_HOST=$ELASTIC_HOST_ARCH
+export ELASTIC_PASSWORD=$ELASTIC_PASSWORD_ARCH

@@ -28,13 +28,11 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 " Plug 'nvim-lua/completion-nvim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'lervag/vimtex'
 
 Plug 'gcmt/wildfire.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
-Plug 'https://github.com/adelarsq/image_preview.nvim'
 
 "Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
@@ -120,8 +118,7 @@ nmap <F8> :TagbarToggle<CR>
 nnoremap <F9> :%!jq -c .<CR>
 nnoremap <S-F1> :GitBlameEnable<CR>
 nnoremap <C-F1> :GitBlameDisable<CR>
-
-nnoremap <C-F7> <Plug>(image-preview)
+nnoremap <C-F7> :PresentingStart<CR>
 
 
 " " Copy to clipboard
@@ -136,8 +133,6 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-
-
 :set clipboard+=unnamedplus
 :set completeopt-=preview " For No Previews
 
@@ -149,7 +144,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "
-" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets coc-swagger coc-python coc-vimtex
+" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets coc-swagger coc-python
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
@@ -197,6 +192,47 @@ xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
 let g:gitblame_enabled = 0
 
-lua <<EOF
-require("image_preview").setup({})
-EOF
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+" Plugin 'L9'
+" Git plugin not hosted on GitHub
+"Plugin 'git://git.wincent.com/command-t.git'
+Plugin  'sotte/presenting.vim'
+" git repos on your local machine (i.e. when working on your own plugin)
+"Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Install L9 and avoid a Naming conflict if you've already installed a
+" different version somewhere else.
+" Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
