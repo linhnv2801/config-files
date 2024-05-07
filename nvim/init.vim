@@ -28,11 +28,13 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 " Plug 'nvim-lua/completion-nvim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'lervag/vimtex'
 
 Plug 'gcmt/wildfire.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
+Plug 'https://github.com/adelarsq/image_preview.nvim'
 
 "Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
@@ -119,6 +121,8 @@ nnoremap <F9> :%!jq -c .<CR>
 nnoremap <S-F1> :GitBlameEnable<CR>
 nnoremap <C-F1> :GitBlameDisable<CR>
 
+nnoremap <C-F7> <Plug>(image-preview)
+
 
 " " Copy to clipboard
 vnoremap  <leader>y  "+y
@@ -132,6 +136,8 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
+
+
 :set clipboard+=unnamedplus
 :set completeopt-=preview " For No Previews
 
@@ -143,7 +149,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 " --- Just Some Notes ---
 " :PlugClean :PlugInstall :UpdateRemotePlugins
 "
-" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets coc-swagger coc-python
+" :CocInstall coc-json coc-java coc-lua coc-css coc-tsserver coc-yaml coc-git coc-sql coc-sh coc-pyright coc-langd  coc-snippets coc-swagger coc-python coc-vimtex
 " :CocCommand snippets.edit... FOR EACH FILE TYPE
 
 " air-line
@@ -190,3 +196,7 @@ nmap ga <Plug>(EasyAlign)
 xmap ga <Plug>(EasyAlign)
 let NERDTreeShowHidden=1
 let g:gitblame_enabled = 0
+
+lua <<EOF
+require("image_preview").setup({})
+EOF
