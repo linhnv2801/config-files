@@ -34,7 +34,7 @@ Plug 'tyru/open-browser.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
-
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 "Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'github/copilot.vim'
