@@ -28,8 +28,9 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 " Plug 'nvim-lua/completion-nvim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
+Plug 'weirongxu/plantuml-previewer.vim'
 Plug 'gcmt/wildfire.vim'
+Plug 'tyru/open-browser.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
@@ -72,7 +73,8 @@ Plug 'f-person/git-blame.nvim'
 Plug 'emakman/nvim-latex-previewer'
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
-
+Plug 'lervag/vimtex'
+Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 " - shell repl
 " - nvim lua api
@@ -221,7 +223,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-
+Plugin 'scrooloose/vim-slumlord'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
