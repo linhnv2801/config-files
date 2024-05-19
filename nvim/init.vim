@@ -239,3 +239,4 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 let g:livepreview_previewer = 'open'
+let g:livepreview_cursorhold_recompile = 1
