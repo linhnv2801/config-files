@@ -119,8 +119,8 @@ nnoremap <F9> :%!jq -c .<CR>
 nnoremap <C-P> :CocCommand swagger.render<CR>
 nnoremap <S-F1> :GitBlameEnable<CR>
 nnoremap <C-F1> :GitBlameDisable<CR>
-nnoremap <S-F5> :PlantumlStart<CR>
-nnoremap <S-F6> :PlantumlOpen<CR>
+nnoremap <S-F5> :PlantumlOpen<CR>
+nnoremap <S-F6> :PlantumlSave<CR>
 nnoremap <S-F7> :LLPStartPreview<CR>
 nnoremap <C-F7> :PresentingStart<CR>
 
