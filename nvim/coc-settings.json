@@ -1,0 +1,40 @@
+{
+  "snippets.ultisnips.pythonPrompt": false,
+  "coc.preferences.formatOnSave": false,
+  "python.jediEnabled": false,
+  "python.formatting.blackPath": "/home/linh/anaconda3/bin/black",
+  "java.enabled": true,
+  "java.jdt.ls.statusIcons": {
+    "busy": "Busy",
+    "ready": "OK",
+    "warning": "Warning",
+    "Error": "Error"
+  },
+  "java.saveActions.organizeImports": true,
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.signatureHelp.description.enabled": false,
+  "java.implementationsCodeLens.enabled": true,
+  "java.maxConcurrentBuilds": 3,
+  "java.codeGeneration.generateComments": true,
+  "semanticTokens.enable": true,
+  "java.jdt.ls.lombokSupport.enabled": true,
+  "java.typeHierarchy.lazyLoad": false,
+  "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-21-oracle-x64",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.import.maven.enabled": true,
+  "java.jdt.ls.vmargs": "-Xbootclasspath/a:/home/linh/Downloads/Setups/lombok.jar -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",  "java.format.onType.enabled": true,
+  "java.completion.guessMethodArguments": true,
+  "java.codeGeneration.useBlocks": true,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.signatureHelp.enabled": true,
+  "java.format.settings.url": "/home/linh/Downloads/Setups/eclipse-java-google-style.xml",
+  "java.maven.downloadSources": true,
+  "coc.preferences.enableMarkdown": true,
+  "markdown-preview-enhanced.plantumlJarPath": "/home/linh/Downloads/Setups/plantuml-1.2024.3.jar",
+  "java.import.gradle.java.home": "/usr/lib/jvm/jdk-11-oracle-x64",
+  "coc.source.vimtex.filetypes": [
+    "tex",
+    "plaintex"
+  ]
+   }

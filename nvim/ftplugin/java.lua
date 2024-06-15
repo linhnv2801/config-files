@@ -1,0 +1,28 @@
+-- local config = {
+-- 	cmd = { '/Users/linh/Downloads/libs/eclipse.jdt.ls-1.28.0/org.eclipse.jdt.ls.product/target/repository/bin/jdtls' },
+-- 	root_dir = vim.fs.dirname(vim.fs.find({ 'gradlew', '.git', 'mvnw' }, { upward = true })[1]),
+-- }
+-- require('jdtls').start_or_attach(config)
+-- local config = {
+-- 	cmd = {
+-- 		-- command configuration
+-- 	},
+-- 	settings = {
+-- 		-- settings configuration
+-- 	},
+-- 	init_options = {
+-- 		bundles = {
+-- 			vim.fn.glob(
+-- 			"/Users/linh/Githubs/java-debug/com.microsoft.java.debug.repository/target/repository/plugins/com.microsoft.java.debug.plugin_0.49.0.jar",
+-- 				1)
+-- 		},
+-- 	},
+-- }
+
+-- config['on_attach'] = function(client, bufnr)
+-- 	require('jdtls').setup_dap({ hotcodereplace = 'auto' })
+-- end
+
+-- -- This starts a new client & server,
+-- -- or attaches to an existing client & server depending on the `root_dir`.
+-- require('jdtls').start_or_attach(config)

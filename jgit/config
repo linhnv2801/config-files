@@ -1,0 +1,15 @@
+[filesystem "Eclipse Adoptium|17.0.9|/dev/nvme0n1p8"]
+	timestampResolution = 4961 nanoseconds
+	minRacyThreshold = 1145 microseconds
+[filesystem "Oracle Corporation|11.0.21|/dev/nvme0n1p8"]
+	timestampResolution = 2000 nanoseconds
+	minRacyThreshold = 1608 microseconds
+[filesystem "Eclipse Adoptium|17.0.10|/dev/nvme0n1p8"]
+	timestampResolution = 3086 nanoseconds
+	minRacyThreshold = 1503 microseconds
+[filesystem "Oracle Corporation|21.0.2|/dev/nvme0n1p8"]
+	timestampResolution = 3179 nanoseconds
+	minRacyThreshold = 1228 microseconds
+[filesystem "JetBrains s.r.o.|17.0.10|/dev/nvme0n1p8"]
+	timestampResolution = 2853 nanoseconds
+	minRacyThreshold = 1921 microseconds

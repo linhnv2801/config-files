@@ -1,0 +1,34 @@
+coc/extensions
+extensions
+Code
+google-chrome
+
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore specific configuration file
+custom_config.json
+
+# Ignore all files in a specific directory
+backup/*
+
+JetBrains
+inkscape
+libreoffice
+MongoDB Compass
+microsoft-edge
+microsoft-edge-dev
+texstudio
+nvm
+Docker Desktop
+VirtualBox
+ibus
+data
+cef_user_data

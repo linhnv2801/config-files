@@ -1,0 +1,11 @@
+{
+  "coc-java|/home/linhnv/oms/oms-core-service": {
+    "java.home.failsMinRequiredFirstTime": true
+  },
+  "coc-java|global": {
+    "java.neverShowImportFinishNotification": true
+  },
+  "coc-java|/home/linhnv/Data/Githubs/mrlinhnv2801/tutorials": {
+    "java.activeBuildTool": "maven"
+  }
+}
