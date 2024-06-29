@@ -1,0 +1,17 @@
+2024/06/28-19:02:35.596 11d5 Recovering log #6
+2024/06/28-19:02:35.751 11d5 Level-0 table #8: started
+2024/06/28-19:02:35.764 11d5 Level-0 table #8: 10553 bytes OK
+2024/06/28-19:02:35.784 11d5 Delete type=3 #4
+2024/06/28-19:02:35.791 11d5 Delete type=0 #6
+2024/06/28-19:25:43.827 11d6 Level-0 table #11: started
+2024/06/28-19:25:44.545 11d6 Level-0 table #11: 122059 bytes OK
+2024/06/28-19:25:44.754 11d6 Delete type=0 #9
+2024/06/28-19:25:44.967 11d6 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01%\x00c\x00a\x00c\x00h\x00e\x00/\x00s\x00e\x00l\x00f\x00i\x00e\x00/\x00r\x00e\x00d\x00i\x00r\x00e\x00c\x00t\x00E\x00n\x00g\x00i\x00n\x00e\x00/\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s' @ 109 : 1
+2024/06/28-19:25:44.982 11d6 Compacting 3@0 + 0@1 files
+2024/06/28-19:25:45.402 11d6 Generated table #12@0: 65 keys, 30643 bytes
+2024/06/28-19:25:45.417 11d6 Compacted 3@0 + 0@1 files => 30643 bytes
+2024/06/28-19:25:45.491 11d6 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/06/28-19:25:45.507 11d6 Delete type=2 #11
+2024/06/28-19:25:45.508 11d6 Delete type=2 #5
+2024/06/28-19:25:45.508 11d6 Delete type=2 #8
+2024/06/28-19:25:45.531 11d6 Manual compaction at level-0 from '\x00\x01\x01\x03\x01%\x00c\x00a\x00c\x00h\x00e\x00/\x00s\x00e\x00l\x00f\x00i\x00e\x00/\x00r\x00e\x00d\x00i\x00r\x00e\x00c\x00t\x00E\x00n\x00g\x00i\x00n\x00e\x00/\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s' @ 109 : 1 .. (end); will stop at (end)
