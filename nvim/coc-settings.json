@@ -2,7 +2,7 @@
 	"snippets.ultisnips.pythonPrompt": false,
 	"coc.preferences.formatOnSave": true,
 	"python.jediEnabled": false,
-	"python.formatting.blackPath": "/opt/anaconda3/bin/black",
+	"python.formatting.blackPath": "~/anaconda3/bin/black",
 	"java.enabled": true,
 	"java.jdt.ls.statusIcons": {
 		"busy": "Busy",
@@ -28,7 +28,7 @@
 	"java.codeGeneration.useBlocks": true,
 	"java.errors.incompleteClasspath.severity": "ignore",
 	"java.signatureHelp.enabled": true,
-	"java.format.settings.url": "/home/linh/Downloads/Setups/Java/eclipse-java-google-style.xml",
+	"java.format.settings.url": "/home/linh/.config/Java/eclipse-java-google-style.xml",
 	"java.maven.downloadSources": true,
 	"java.import.gradle.java.home": "/home/linh/Downloads/Setups/Java/jdk-17.0.12"
 }
