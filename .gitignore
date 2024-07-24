@@ -1,2 +1,4 @@
-./coc/extensions
 coc/extensions
+Code
+microsoft-edge
+*.xml~
