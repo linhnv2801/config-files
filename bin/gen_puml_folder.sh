@@ -29,5 +29,5 @@ do
     puml_file="$OUTPUT_DIR/${filename}.puml"
 
     # Run the gen_plantuml.sh script with the SQL file and the output PUML file
-    ./gen_plantuml.sh "$sql_file" "$puml_file"
+    /Users/nguyenlinh/.config/bin/gen_plantuml.sh "$sql_file" "$puml_file"
 done
