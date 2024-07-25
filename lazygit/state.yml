@@ -1,12 +1,13 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/linh/Gitlabs/vtp/e-commerce
+- /home/linh/Gitlabs/vtp/excel-api
 - /home/linh/Gitlabs/oms-core-service
+- /home/linh/Gitlabs/e-commerce
+- /home/linh/Gitlabs/vtp/oraclecode
 - /home/linh/Gitlabs/vtp/vtp-daily-report
+- /home/linh/Gitlabs/oms/oms-core-service
 - /home/linh/Gitlabs/okd/platf-notification
 - /home/linh/Gitlabs/vtp/sso
-- /home/linh/Gitlabs/tms-delivery-service
-- /home/linh/Gitlabs/tms-receiving-service
 - /home/linh/Gitlabs/vtp/s3uploadimage
 - /home/linh/Gitlabs/okd/platf-core
 - /home/linh/Gitlabs/okd/geocoding
@@ -16,15 +17,12 @@ recentrepos:
 - /home/linh/Gitlabs/vtp/vtp-order
 - /home/linh/Gitlabs/vtp-keycloak-custom-protocol-mapper
 - /home/linh/Gitlabs/vtp-user-service
-- /home/linh/Gitlabs/tms-common
 - /home/linh/Gitlabs/scs-cal-service
 - /home/linh/Gitlabs/root-common
 - /home/linh/Gitlabs/scs-ranking-service
 - /home/linh/Githubs/mrlinh/quarkus-quickstarts
 - /home/linh/Gitlabs/vtp/core-service/vtp-order
-- /home/linh/Gitlabs/vtp/excel-api
 - /home/linh/Gitlabs/vtp/job-storage
-- /home/linh/Gitlabs/tms-sorting-service
 - /home/linh/Gitlabs/docker-compose
 startuppopupversion: 5
 customcommandshistory:

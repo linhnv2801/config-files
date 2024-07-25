@@ -76,6 +76,7 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'lervag/vimtex'
 Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
+Plug 'nmassardot/nvim-preview-svg' 
 " - shell repl
 " - nvim lua api
 " - scientific calculator
@@ -246,4 +247,3 @@ filetype plugin indent on    " required
 let g:livepreview_previewer = 'evince'
 let g:livepreview_cursorhold_recompile = 1
 let g:plantuml_previewer_plantuml_url = 'http://www.plantuml.com/plantuml'
-

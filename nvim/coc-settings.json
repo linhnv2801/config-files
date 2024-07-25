@@ -1,6 +1,5 @@
 {
   "snippets.ultisnips.pythonPrompt": false,
-  "coc.preferences.formatOnSave": false,
   "python.jediEnabled": false,
   "python.formatting.blackPath": "/home/linh/anaconda3/bin/black",
   "java.enabled": true,
@@ -10,7 +9,6 @@
     "warning": "Warning",
     "Error": "Error"
   },
-  "java.saveActions.organizeImports": true,
   "codeLens.enable": true,
   "java.referencesCodeLens.enabled": true,
   "java.signatureHelp.description.enabled": false,
@@ -36,5 +34,12 @@
   "coc.source.vimtex.filetypes": [
     "tex",
     "plaintex"
-  ]
-   }
+  ],
+  "languageserver": {
+        "csharp-ls": {
+          "command": "csharp-ls",
+          "filetypes": ["cs"],
+          "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+        }
+    }
+}

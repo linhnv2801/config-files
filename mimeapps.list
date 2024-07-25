@@ -1,11 +1,11 @@
 [Default Applications]
 x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_var_lib_snapd_snap_eclipse_81_.desktop
-text/html=google-chrome.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
+text/html=microsoft-edge.desktop
+x-scheme-handler/http=microsoft-edge.desktop
+x-scheme-handler/https=microsoft-edge.desktop
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/unknown=google-chrome.desktop
-application/xhtml+xml=google-chrome.desktop
+application/xhtml+xml=microsoft-edge.desktop
 x-scheme-handler/chrome=firefox.desktop
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
