@@ -18,7 +18,7 @@ custom_config.json
 
 # Ignore all files in a specific directory
 backup/*
-
+dconf
 JetBrains
 inkscape
 libreoffice
@@ -32,3 +32,4 @@ VirtualBox
 ibus
 data
 cef_user_data
+*_bk
