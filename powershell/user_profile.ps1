@@ -7,7 +7,6 @@ Write-Host ''
 
 # Themes
 # Install: scoop install oh-my-posh
- #oh-my-posh init pwsh --config 'C:\Users\linh\scoop\apps\oh-my-posh\current\themes\multiverse-neon.omp.json' | Invoke-Expression
 oh-my-posh init pwsh --config 'C:\Users\linh\scoop\apps\oh-my-posh\current\themes\multiverse-neon.omp.json' | Invoke-Expression 
 # Icons
 # Install: Install-Module -Name Terminal-Icons -Scope CurrentUser -Force
