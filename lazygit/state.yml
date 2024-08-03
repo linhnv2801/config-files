@@ -1,30 +1,15 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/linh/Gitlabs/vtp/excel-api
-- /home/linh/Gitlabs/oms-core-service
-- /home/linh/Gitlabs/e-commerce
-- /home/linh/Gitlabs/vtp/oraclecode
-- /home/linh/Gitlabs/vtp/vtp-daily-report
-- /home/linh/Gitlabs/oms/oms-core-service
-- /home/linh/Gitlabs/okd/platf-notification
-- /home/linh/Gitlabs/vtp/sso
-- /home/linh/Gitlabs/vtp/s3uploadimage
-- /home/linh/Gitlabs/okd/platf-core
-- /home/linh/Gitlabs/okd/geocoding
-- /home/linh/Gitlabs/vtp/sap-ecommerce
-- /home/linh/Gitlabs/vtp/dtwh-restapi
-- /home/linh/Githubs/mrlinh/config-files
-- /home/linh/Gitlabs/vtp/vtp-order
-- /home/linh/Gitlabs/vtp-keycloak-custom-protocol-mapper
-- /home/linh/Gitlabs/vtp-user-service
-- /home/linh/Gitlabs/scs-cal-service
-- /home/linh/Gitlabs/root-common
-- /home/linh/Gitlabs/scs-ranking-service
-- /home/linh/Githubs/mrlinh/quarkus-quickstarts
-- /home/linh/Gitlabs/vtp/core-service/vtp-order
-- /home/linh/Gitlabs/vtp/job-storage
-- /home/linh/Gitlabs/docker-compose
+    - /home/linh/.config
 startuppopupversion: 5
+lastversion: 0.43.1
 customcommandshistory:
-- q!
+    - q!
 hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 3
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
