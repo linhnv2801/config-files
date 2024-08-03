@@ -32,7 +32,10 @@ fi
 for subdir in $subdirectories; do
   echo "Found subdirectory: $subdir"
 
-  ./build_puml.sh $subdir
+  if [ "$subdir" != "icon" ]; then
+    echo "Found subdirectory: $subdir"
+    ~/.config/bin/build_puml.sh "$subdir"
+  fi
   
   # Example interaction: ask the user if they want to list files in the subdirectory
   # read -p "Do you want to list the files in this subdirectory? (y/n): " answer

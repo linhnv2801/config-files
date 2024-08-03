@@ -1685,5 +1685,8 @@
     },
     "INTERPRETERS_CACHE_v3_PipEnvService": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-java|/home/linh/Gitlabs/e-commerce": {
+    "java.home.failsMinRequiredFirstTime": true
   }
 }
