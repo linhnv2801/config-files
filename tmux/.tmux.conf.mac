@@ -2,7 +2,7 @@
 set -g @plugin 'tmux-plugins/tpm'
 
 set -g @sysstat_swap_view_tmpl '#{swap.used}/#{swap.total}'
-set -g status-right '#[fg=black,bg=yellow]#(tmux display-message -p "#{pane_current_path}" | sed "s#$HOME#~#g")#[bg=yellow]#{forecast}#[bg=green,fg=black]#{sysstat_swap}#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load -q -v -c -p -l 52 -r 33 -i 2)#{gpu_bg_color}#[bg=blue,fg=black]#[bg=yellow]#{temp_cpu}#[bg=cyan]#{df_avail}#[bg=yellow]#{uptime}'
+set -g status-right '#[fg=black,bg=yellow]#(tmux display-message -p "#{pane_current_path}" | sed "s#$HOME#~#g")#[bg=blue]#{forecast}#[bg=green,fg=black]#{sysstat_swap}#($TMUX_PLUGIN_MANAGER_PATH/tmux-mem-cpu-load/tmux-mem-cpu-load -q -v -c -p -l 52 -r 33 -i 2)#{gpu_bg_color}#[bg=blue,fg=black]#[bg=yellow]#{temp_cpu}#[bg=cyan]#{df_avail}#[bg=yellow]#{uptime}'
 #set -g status-right '#[fg=cyan,bold] #U@#H #[default]#[fg=blue]#(tmux display-message -p "#{pane_current_path}" | sed "s#$HOME#~#g")'
 
 set -g status-right-length 420
@@ -16,12 +16,16 @@ set -g @forecast-location Hanoi
 set -g @plugin 'samoshkin/tmux-plugin-sysstat'
 set -g @plugin 'ofirgall/tmux-window-name'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'aaronpowell/tmux-weather'
 set -g @resurrect-save-dir "/home/linh/Documents/tmux/sesstion"
 set -g @plugin 'tmux-plugins/tmux-logging'
 set -g history-limit 100000
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'trevarj/tmux-open-nvim'
+set -g @plugin 'minhdanh/tmux-network-speed'
+# set -g @net_speed_interfaces 'en0'
+set -g @network_speed_interface 'en5 en0'
 set -g @plugin 'tassaron/tmux-df'
 set -g @plugin "soyuka/tmux-current-pane-hostname"
 set -g @plugin 'robhurring/tmux-uptime'
@@ -29,7 +33,8 @@ set -g @plugin 'robhurring/tmux-uptime'
 set -g @fingers-pattern-0 "((^|^\.|[[:space:]]|[[:space:]]\.|[[:space:]]\.\.|^\.\.)[[:alnum:]~_-]*/[][[:alnum:]_.#$%&+=/@-]+)(:[[:digit:]]*:[[:digit:]]*)?"
 # Launches helper script on Ctrl+[key] in fingers mode
 set -g @fingers-ctrl-action "xargs -I {} tmux run-shell 'cd #{pane_current_path}; ~/.tmux/plugins/tmux-open-nvim/scripts/ton {} > ~/.tmux/plugins/tmux-open-nvim/ton.log'"s
-
+set -g @network_speed_download_color '#[fg=black]'
+set -g @network_speed_upload_color '#[fg=black]'
 
 unbind-key C-a
 
@@ -49,13 +54,11 @@ bind h select-pane -L
 bind l select-pane -R
 
 set -g mouse on
-bind-key -n F1 attach-session -t vtp
+bind-key -n F1 attach-session -t global
 bind-key -n F2 attach-session -t oms
-bind-key -n F3 attach-session -t tms
-bind-key -n F10 attach-session -t confi
-bind-key -n C-F1 attach-session -t chatg
-bind-key -n C-F11 attach-session -t tutorial
-bind-key -n C-F2 attach-session -t core-service
+bind-key -n F3 attach-session -t vtp
+bind-key -n F10 attach-session -t config
+bind-key -n F4 attach-session -t tms
 
 
 set-option -sg escape-time 10
