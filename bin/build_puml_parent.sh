@@ -32,7 +32,7 @@ fi
 for subdir in $subdirectories; do
   echo "Found subdirectory: $subdir"
 
-  ./build_puml.sh $subdir
+  /home/linh/.config/bin/build_puml.sh $subdir
   
   # Example interaction: ask the user if they want to list files in the subdirectory
   # read -p "Do you want to list the files in this subdirectory? (y/n): " answer
