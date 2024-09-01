@@ -98,6 +98,18 @@ Plug 'habamax/vim-asciidoctor'
 Plug 'tpope/vim-dadbod'
 set encoding=UTF-8
 
+" Deps
+Plug 'stevearc/dressing.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'MunifTanjim/nui.nvim'
+
+" Optional deps
+Plug 'nvim-tree/nvim-web-devicons' "or Plug 'echasnovski/mini.icons'
+Plug 'HakonHarnes/img-clip.nvim'
+Plug 'zbirenbaum/copilot.lua'
+
+" Yay
+Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': ':AvanteBuild', 'on': 'AvanteAsk' }
 call plug#end()
 
 "nnoremap <C-d> :NERDTreeFocus<CR>
@@ -111,7 +123,7 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-h> :bnext<CR>
  nnoremap <C-g> :FZF<CR>
  nnoremap <C-t> :terminal<CR>
-nnoremap <F5> :CocCommand prettier.formatFile<CR>
+nnoremap <C-F5> :CocCommand prettier.formatFile<CR>
 nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -246,4 +258,41 @@ filetype plugin indent on    " required
 let g:livepreview_previewer = 'evince'
 let g:livepreview_cursorhold_recompile = 1
 let g:plantuml_previewer_plantuml_url = 'http://www.plantuml.com/plantuml'
+lua << EOF
+  require('packer').startup(function()
+    -- Add your plugins here
+
+    -- Example: Packer can manage itself
+    use 'wbthomason/packer.nvim'
+
+	-- Add akinsho/git-conflict.nvim
+    use 'akinsho/git-conflict.nvim'
+	 -- Add yetone/avante.nvim
+    use 'yetone/avante.nvim'  -- Correct plugin name
+	use({
+	  "jackMort/ChatGPT.nvim",
+		config = function()
+		  require("chatgpt").setup()
+		end,
+		requires = {
+		  "MunifTanjim/nui.nvim",
+		  "nvim-lua/plenary.nvim",
+		  "folke/trouble.nvim",
+		  "nvim-telescope/telescope.nvim"
+		}
+	})
+  end)
+EOF
+
+lua << EOF
+  require('avante').setup({
+    -- Specify the backend to use OpenAI
+    backend = 'openai',
+    -- Retrieve the OpenAI API key from the environment variable
+    openai_api_key = vim.fn.getenv("OPENAI_API_KEY"),
+    -- Optionally, specify the model (default is gpt-4)
+    model = 'gpt-4'
+  })
+EOF
+
 
