@@ -98,6 +98,23 @@ Plug 'habamax/vim-asciidoctor'
 Plug 'tpope/vim-dadbod'
 set encoding=UTF-8
 
+
+" Deps
+Plug 'stevearc/dressing.nvim'
+Plug 'nvim-lua/plenary.nvim'
+
+Plug 'MunifTanjim/nui.nvim'
+
+" Optional deps
+
+Plug 'nvim-tree/nvim-web-devicons' "or Plug 'echasnovski/mini.icons'
+Plug 'HakonHarnes/img-clip.nvim'
+
+Plug 'zbirenbaum/copilot.lua'
+
+" Yay
+Plug 'yetone/avante.nvim'
+
 call plug#end()
 
 "nnoremap <C-d> :NERDTreeFocus<CR>

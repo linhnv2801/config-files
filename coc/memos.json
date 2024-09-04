@@ -32,7 +32,7 @@
         "sysPrefix": "/usr",
         "fileHash": "3d8aec4e02988371a5a87faa20bac0675e20cf5915765d389f58f718fbc988db3aca63401809ee38829cc677799909b39ae06f91eaa33ae92e0db47a81c47e1e"
       },
-      "expiry": 1724227020334
+      "expiry": 1724987470823
     },
     "/bin/python3.v3": {
       "data": {
@@ -57,7 +57,7 @@
         "sysPrefix": "/usr",
         "fileHash": "aa74762228995e956b06b0bd73a65132e5b212f8100debc53edd5e14e2dc8efbb4221bdd47c196bb104418504464b1a1c9d88e4f3428163c12023a2a520a9d2f"
       },
-      "expiry": 1724227020379
+      "expiry": 1724987470814
     },
     "/bin/python.v3": {
       "data": {
@@ -82,7 +82,7 @@
         "sysPrefix": "/usr",
         "fileHash": "3d8aec4e02988371a5a87faa20bac0675e20cf5915765d389f58f718fbc988db3aca63401809ee38829cc677799909b39ae06f91eaa33ae92e0db47a81c47e1e"
       },
-      "expiry": 1724227020379
+      "expiry": 1724987470815
     },
     "/usr/bin/python3.12.v3": {
       "data": {
@@ -107,7 +107,7 @@
         "sysPrefix": "/usr",
         "fileHash": "aa74762228995e956b06b0bd73a65132e5b212f8100debc53edd5e14e2dc8efbb4221bdd47c196bb104418504464b1a1c9d88e4f3428163c12023a2a520a9d2f"
       },
-      "expiry": 1724227020343
+      "expiry": 1724987470816
     },
     "/usr/bin/python3.v3": {
       "data": {
@@ -132,7 +132,7 @@
         "sysPrefix": "/usr",
         "fileHash": "aa74762228995e956b06b0bd73a65132e5b212f8100debc53edd5e14e2dc8efbb4221bdd47c196bb104418504464b1a1c9d88e4f3428163c12023a2a520a9d2f"
       },
-      "expiry": 1724227020342
+      "expiry": 1724987470823
     },
     "INTERPRETERS_CACHE_v3_CurrentPathService": [
       {
@@ -228,7 +228,7 @@
         "sysPrefix": "/usr",
         "fileHash": "aa74762228995e956b06b0bd73a65132e5b212f8100debc53edd5e14e2dc8efbb4221bdd47c196bb104418504464b1a1c9d88e4f3428163c12023a2a520a9d2f"
       },
-      "expiry": 1724227020379
+      "expiry": 1724987470815
     },
     "InterpreterAutoSeletionRule-currentPath": {
       "architecture": 3,
@@ -561,14 +561,14 @@
         "displayName": "Python 3.12.4 64-bit",
         "hash": "3d8aec4e02988371a5a87faa20bac0675e20cf5915765d389f58f718fbc988db3aca63401809ee38829cc677799909b39ae06f91eaa33ae92e0db47a81c47e1e-85be164443f7964fb2e5b0fadefdf6ef"
       },
-      "expiry": 1724227020511
+      "expiry": 1724987470983
     },
     "/bin/python.interpreter.displayName.v7": {
       "data": {
         "displayName": "Python 3.12.4 64-bit",
         "hash": "3d8aec4e02988371a5a87faa20bac0675e20cf5915765d389f58f718fbc988db3aca63401809ee38829cc677799909b39ae06f91eaa33ae92e0db47a81c47e1e-c2099e7f7672c7d6649b564e77248685"
       },
-      "expiry": 1724227020390
+      "expiry": 1724987470920
     },
     "InterpreterAutoSeletionRule-system": {
       "architecture": 3,
@@ -623,7 +623,7 @@
           "__store": true
         }
       },
-      "expiry": 1724227020452
+      "expiry": 1724987470944
     },
     "/bin/python.interpreter.Details.v7": {
       "data": {
@@ -653,7 +653,7 @@
           "displayName": "Python 3.12.4 64-bit"
         }
       },
-      "expiry": 1724227020432
+      "expiry": 1724987470935
     },
     "InterpreterAutoSeletionRule-cachedInterpreters": {
       "architecture": 3,
@@ -684,6 +684,38 @@
     "INTERPRETERS_CACHE_v3_PipEnvService:eef1bfb4f68cf4fe6d5ce273102afe7d": [],
     "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:eef1bfb4f68cf4fe6d5ce273102afe7d": [],
     "autoSelectedWorkspacePythonInterpreter-/home/linh/Gitlabs/vtp-daily-report": {
+      "architecture": 3,
+      "path": "/usr/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.4-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 4,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.4-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "3d8aec4e02988371a5a87faa20bac0675e20cf5915765d389f58f718fbc988db3aca63401809ee38829cc677799909b39ae06f91eaa33ae92e0db47a81c47e1e",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-java|global": {
+    "java.neverShowImportFinishNotification": true
+  },
+  "coc-python|/home/linh/Gitlabs/oms/or-order-adapter": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:76d8f986e80dc67e28517749b4c36820": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:76d8f986e80dc67e28517749b4c36820": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/linh/Gitlabs/oms/or-order-adapter": {
       "architecture": 3,
       "path": "/usr/bin/python",
       "version": {
