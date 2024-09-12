@@ -97,7 +97,7 @@ Plug 'mfussenegger/nvim-dap'
 Plug 'habamax/vim-asciidoctor'
 Plug 'tpope/vim-dadbod'
 set encoding=UTF-8
-
+Plug 'kurotych/ccryptor.nvim'
 " Deps
 Plug 'stevearc/dressing.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -265,34 +265,38 @@ lua << EOF
     -- Example: Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+	use {
+	  'johann2357/pass.nvim',
+	  config = function()
+		require('pass').setup()
+	  end
+	}
+
 	-- Add akinsho/git-conflict.nvim
     use 'akinsho/git-conflict.nvim'
 	 -- Add yetone/avante.nvim
-    use 'yetone/avante.nvim'  -- Correct plugin name
-	use({
-	  "jackMort/ChatGPT.nvim",
-		config = function()
-		  require("chatgpt").setup()
-		end,
-		requires = {
-		  "MunifTanjim/nui.nvim",
-		  "nvim-lua/plenary.nvim",
-		  "folke/trouble.nvim",
-		  "nvim-telescope/telescope.nvim"
-		}
-	})
+    -- use 'yetone/avante.nvim'  -- Correct plugin name
+	use {
+	  "nacro90/omen.nvim",
+	  requires = {
+		"nvim-lua/telescope.nvim",
+		"nvim-lua/plenary.nvim",
+	  },
+	  config = function()
+		require("omen").setup()
+	  end
+	}
+	
   end)
 EOF
 
-lua << EOF
-  require('avante').setup({
-    -- Specify the backend to use OpenAI
-    backend = 'openai',
-    -- Retrieve the OpenAI API key from the environment variable
-    openai_api_key = vim.fn.getenv("OPENAI_API_KEY"),
-    -- Optionally, specify the model (default is gpt-4)
-    model = 'gpt-4'
-  })
+lua <<EOF
+require("ccryptor").setup({
+    dir_path = '/home/linh/secrets/'
+})
 EOF
 
-
+" require('ccryptor').setup({
+"     algorithm = 'AES-256-CBC',  -- You can change this to your preferred algorithm
+"     password_prompt = 'Enter password: ',  -- Custom prompt when asking for password
+" })
