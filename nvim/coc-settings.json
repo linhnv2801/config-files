@@ -18,7 +18,7 @@
 	"java.codeGeneration.generateComments": true,
 	"semanticTokens.enable": true,
 	"java.typeHierarchy.lazyLoad": false,
-	"java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home",
+	"java.jdt.ls.java.home": "/opt/homebrew/opt/openjdk@17",
 	"java.jdt.ls.lombokSupport.enabled": true,
 	"java.compile.nullAnalysis.mode": "automatic",
 	"java.import.maven.enabled": true,

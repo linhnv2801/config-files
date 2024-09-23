@@ -34,3 +34,6 @@
 [filesystem "JetBrains s.r.o.|17.0.10|/dev/disk3s5"]
 	timestampResolution = 3000 nanoseconds
 	minRacyThreshold = 0 nanoseconds
+[filesystem "Eclipse Adoptium|21.0.4|/dev/disk3s5"]
+	timestampResolution = 3000 nanoseconds
+	minRacyThreshold = 0 nanoseconds
