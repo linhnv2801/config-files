@@ -34,7 +34,6 @@ Plug 'tyru/open-browser.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 "Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'github/copilot.vim'
@@ -48,7 +47,6 @@ Plug 'williamboman/mason.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jpalardy/vim-slime'
-Plug 'hanschen/vim-ipython-cell'
 Plug 'preservim/vimux'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'nvim-telescope/telescope.nvim' " optional
@@ -70,7 +68,6 @@ Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'f-person/git-blame.nvim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
 Plug 'lervag/vimtex'
@@ -120,7 +117,7 @@ call plug#end()
 "nnoremap <C-d> :NERDTreeFocus<CR>
 nnoremap <C-k> :NERDTreeFind<CR>
 nnoremap <C-c> :NERDTreeClose<CR>
-nnoremap <C-f> :Ag<CR>
+nnoremap <C-f> :Ag -u<CR>
 nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-g> :NERDTreeToggle<CR>
  nnoremap <C-l> :ls<CR>
@@ -225,7 +222,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'xuhdev/vim-latex-live-preview'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -263,4 +259,8 @@ filetype plugin indent on    " required
 let g:livepreview_previewer = 'evince'
 let g:livepreview_cursorhold_recompile = 1
 let g:plantuml_previewer_plantuml_url = 'http://www.plantuml.com/plantuml'
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+
+" Use ag for FZF and include hidden files
+let $FZF_DEFAULT_COMMAND = 'ag -u --hidden --ignore .git -g ""'
 

@@ -1,6 +1,6 @@
 {
 	"snippets.ultisnips.pythonPrompt": false,
-	"coc.preferences.formatOnSave": true,
+	"coc.preferences.formatOnSave": false,
 	"python.jediEnabled": false,
 	"python.formatting.blackPath": "~/anaconda3/bin/black",
 	"java.enabled": true,
