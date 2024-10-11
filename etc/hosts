@@ -1,0 +1,33 @@
+10.208.164.57 host.docker.internal
+10.208.164.57 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal localhost
+# End of section
+10.255.51.214 dev-tms02
+171.244.51.16 staging-rancher.viettelpost.vn
+171.244.51.249 dev-mm-sso.viettelpost.vn
+171.244.51.249 dev-tool-kafka.viettelpost.vn
+171.244.51.249 dev-jenkins.viettelpost.vn
+
+171.244.51.249 dev-kafka.viettelpost.vn
+# TailscaleHostsSectionStart
+# This section contains MagicDNS entries for Tailscale.
+# Do not edit this section manually.
+
+
+100.77.120.37 dinh.tail3bfa1.ts.net. dinh
+100.103.94.74 fedora-home.tail3bfa1.ts.net. fedora-home
+100.120.254.132 iphones-linh-2.tail3bfa1.ts.net. iphones-linh-2
+100.100.170.34 kali.tail3bfa1.ts.net. kali
+
+100.102.44.96 kieuanh.tail3bfa1.ts.net. kieuanh
+100.76.171.55 linh-k56ca.tail3bfa1.ts.net. linh-k56ca
+100.104.23.28 linhs-macbook-air.tail3bfa1.ts.net. linhs-macbook-air
+
+100.108.249.31 macbook-kieuanh.tail3bfa1.ts.net. macbook-kieuanh
+100.101.158.29 raspberrypi.tail3bfa1.ts.net. raspberrypi
+100.70.196.68 ubuntu-vtp.tail3bfa1.ts.net. ubuntu-vtp
+100.101.162.13 windows-home.tail3bfa1.ts.net. windows-home
+100.97.65.121 windows-vtp.tail3bfa1.ts.net. windows-vtp
+10.255.51.151 auth-chatops.viettelpost.vn 
+10.255.51.151 chatops.viettelpost.vn 
