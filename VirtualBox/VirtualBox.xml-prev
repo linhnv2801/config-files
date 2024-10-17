@@ -8,12 +8,13 @@
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="480,270,960,540"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=f37bb5d0-316e-4e1d-919c-5368c346e181"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="2621,447,960,540"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{64647eb3-1d7b-4fac-83fa-6a69c04b9352}" src="/home/linh/VirtualBox VMs/Hortonworks Sandbox HDP 2.6.5/Hortonworks Sandbox HDP 2.6.5.vbox"/>
+      <MachineEntry uuid="{c3402507-6866-46ae-8c8d-380507446e59}" src="/home/linh/SSD/Hortonworks Sandbox HDP 2.6.5 1/Hortonworks Sandbox HDP 2.6.5 1.vbox"/>
+      <MachineEntry uuid="{f37bb5d0-316e-4e1d-919c-5368c346e181}" src="/home/linh/SSD/Hortonworks Sandbox HDP 3.0/Hortonworks Sandbox HDP 3.0.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

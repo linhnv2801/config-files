@@ -69,7 +69,6 @@ Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'f-person/git-blame.nvim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
 Plug 'lervag/vimtex'
@@ -224,7 +223,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'xuhdev/vim-latex-live-preview'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
