@@ -102,6 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export HISTFILE=~/.config/.oh-my-zsh/.zsh_history
+export HISTSIZE=1000000          # Number of commands to remember in history
+export SAVEHIST=1000000          # Number of lines to save in the history file
+
 source /Users/linh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export JAVA_HOME="/opt/homebrew/opt/openjdk@21"
 export JAVA_HOME="/opt/homebrew/opt/openjdk@11"
