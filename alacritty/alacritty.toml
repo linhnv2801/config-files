@@ -74,10 +74,10 @@ y = 2
 
 # Alacritty configuration
 
-[shell]
-program = "/bin/zsh"
-# args = ["-c", "ssh linh@home"]
-args = ["-c", "ssh linhnv46@window-vtp"]
+# [shell]
+# program = "/bin/zsh"
+# # args = ["-c", "ssh linh@home"]
+# args = ["-c", "ssh linhnv46@windows-vtp"]
 #[window]
 #	#startup_mode= "Fullscreen"
 #	decorations="none"

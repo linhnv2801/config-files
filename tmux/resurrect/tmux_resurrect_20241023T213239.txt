@@ -1,0 +1,39 @@
+pane	config	0	0	:-	0	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/keycloak-25.0.6	1	zsh	:
+pane	config	0	0	:-	1	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/keycloak-25.0.6	0	zsh	:
+pane	config	0	0	:-	2	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/keycloak-25.0.6	0	zsh	:
+pane	config	0	0	:-	3	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/keycloak/postgres	0	zsh	:
+pane	config	1	1	:*	0	linhs-MacBook-Air.local	:/Users/linh/.config/tmux/resurrect	1	zsh	:
+pane	config	1	1	:*	1	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups	0	zsh	:
+pane	global	0	1	:*	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global/oms-core-service	1	zsh	:
+pane	global	0	1	:*	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global/tms-receiving-service	0	zsh	:
+pane	global	1	0	:	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global/global-task	1	zsh	:
+pane	global	1	0	:	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global	0	zsh	:
+pane	global	1	0	:	2	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global	0	zsh	:
+pane	global	2	0	:-	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/global/vtp-user-service	1	zsh	:
+pane	oms	0	1	:*	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-root	1	zsh	:
+pane	oms	1	0	:	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	oms	1	0	:	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake	0	zsh	:
+pane	oms	1	0	:	2	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake	1	zsh	:
+pane	oms	2	0	:	0	Administrator: C:Windowssystem32conhost.exe	:/Users/linh	1	zsh	:
+pane	oms	3	0	:-	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-documentation/architecture/new	1	zsh	:
+pane	oms	3	0	:-	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-documentation/architecture/new	0	zsh	:
+pane	oms	3	0	:-	2	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-documentation/architecture/new	0	zsh	:
+pane	oms	3	0	:-	3	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-documentation/architecture/new	0	zsh	:
+pane	oms	3	0	:-	4	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-remake/oms-documentation/architecture/new	0	zsh	:
+pane	tutorial	0	0	:-	0	tmux	:/Users/linh/Githubs/spring-webflux-course	1	zsh	:
+pane	tutorial	1	1	:*	0	root@5b2975f64d06: /opt/flink	:/Users/linh/Githubs	0	zsh	:
+pane	tutorial	1	1	:*	1	linhs-MacBook-Air.local	:/Users/linh/Githubs/examples	1	zsh	:
+pane	vtp	0	1	:*	0	linhs-MacBook-Air.local	:/Users/linh/Gitlabs	1	zsh	:
+window	config	0	:kafka	0	:-	53cc,169x50,0,0{84x50,0,0[84x35,0,0,1,84x14,0,36,2],84x50,85,0[84x25,85,0,3,84x24,85,26,4]}	off
+window	config	1	:hbase	1	:*	3d2c,169x50,0,0{85x50,0,0,5,83x50,86,0,6}	off
+window	global	0	:oms-core	1	:*	8aac,169x50,0,0[169x41,0,0,7,169x8,0,42,8]	off
+window	global	1	:task	0	:	3c32,169x50,0,0[169x28,0,0,9,169x21,0,29{84x21,0,29,10,84x21,85,29,11}]	off
+window	global	2	:user	0	:-	5971,169x50,0,0,12	off
+window	oms	0	:root	1	:*	5972,169x50,0,0,13	off
+window	oms	1	:adapter	0	:	055d,169x50,0,0[169x36,0,0,14,169x13,0,37{85x13,0,37,15,83x13,86,37,16}]	off
+window	oms	2	:highTps	0	:	5976,169x50,0,0,17	off
+window	oms	3	:documentaion	0	:-	4af3,169x50,0,0[169x38,0,0,18,169x11,0,39{84x11,0,39,19,42x11,85,39,20,41x11,128,39[41x7,128,39,21,41x3,128,47,22]}]	off
+window	tutorial	0	:zsh	0	:-	d972,169x50,0,0,23	:
+window	tutorial	1	:zsh	1	:*	d2b3,169x50,0,0{84x50,0,0,24,84x50,85,0,25}	:
+window	vtp	0	:zsh	1	:*	d975,169x50,0,0,26	:
+state	config	oms

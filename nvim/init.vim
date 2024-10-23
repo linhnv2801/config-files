@@ -34,7 +34,6 @@ Plug 'tyru/open-browser.vim'
 "Plug 'luk400/vim-jukit'
 Plug 'https://github.com/junegunn/fzf.vim' " Fuzzy Finder, Needs Silversearcher-ag for :Ag
 Plug 'https://github.com/junegunn/fzf'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 "Plug 'https://github.com/glepnir/dashboard-nvim'
 Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'github/copilot.vim'
@@ -48,7 +47,6 @@ Plug 'williamboman/mason.nvim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jpalardy/vim-slime'
-Plug 'hanschen/vim-ipython-cell'
 Plug 'preservim/vimux'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'nvim-telescope/telescope.nvim' " optional
@@ -70,11 +68,8 @@ Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 " 9000+ Snippets
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'f-person/git-blame.nvim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
-Plug 'lervag/vimtex'
-Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 " - shell repl
 " - nvim lua api
@@ -220,7 +215,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'xuhdev/vim-latex-live-preview'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -265,12 +259,6 @@ lua << EOF
     -- Example: Packer can manage itself
     use 'wbthomason/packer.nvim'
 
-	use {
-	  'johann2357/pass.nvim',
-	  config = function()
-		require('pass').setup()
-	  end
-	}
 
 	-- Add akinsho/git-conflict.nvim
     use 'akinsho/git-conflict.nvim'
@@ -296,7 +284,3 @@ require("ccryptor").setup({
 })
 EOF
 
-" require('ccryptor').setup({
-"     algorithm = 'AES-256-CBC',  -- You can change this to your preferred algorithm
-"     password_prompt = 'Enter password: ',  -- Custom prompt when asking for password
-" })
