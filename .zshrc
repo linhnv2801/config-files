@@ -1,11 +1,11 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+# Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
@@ -85,57 +85,36 @@ source $ZSH/oh-my-zsh.sh
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+# export ARCHFLAGS="-arch $(uname -m)"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# Set personal aliases, overriding those provided by Oh My Zsh libs,
+# plugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# useful only for Mac OS Silicon M1, 
-# still working but useless for the other platforms
-docker() {
-  if [[ `uname -m` == "arm64" ]] && [[ "$1" == "run" || "$1" == "build" ]]; then
-    /usr/local/bin/docker "$1" --platform linux/amd64 "${@:2}"
-  else
-     /usr/local/bin/docker "$@"
-  fi
-}
-source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/linh/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/linh/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/linh/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/linh/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-source ~/.bash_profile
-source ~/.profile
-source ~/.bashrc
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-export ELASTIC_PASSWORD_MAC="ZxLHZ4+f*h6ri0AYOJFM" # password Mac os
-export ELASTIC_HOST_MAC="https://localhost:9200" # host Mac os
-export ELASTIC_PASSWORD_ARCH="KZaC=kiaLowFJ-dXpD2N" # password Arch linux
-export ELASTIC_HOST_ARCH="https://100.65.238.55:9200" # host Arch linux 
-
-export ELASTIC_HOST=$ELASTIC_HOST_ARCH
-export ELASTIC_PASSWORD=$ELASTIC_PASSWORD_ARCH
+source /Users/linh/zsh-autosuggestions/zsh-autosuggestions.zsh
+export JAVA_HOME="/opt/homebrew/opt/openjdk@21"
+export JAVA_HOME="/opt/homebrew/opt/openjdk@11"
+export PATH="$JAVA_HOME/bin:$PATH"
+export CTAG_BIN=/opt/homebrew/Cellar/universal-ctags/p6.1.20240922.0/bin
+alias python=python3
+alias pip=pip3
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$CTAG_BIN:$PATH:~/.config/bin"
+export REDIS_PASSWORD=bitnami
+export KEYCLOAK_HOME=/Users/linh/Downloads/Setups/keycloak-25.0.6
+export PATH=$PATH:$KEYCLOAK_HOME/bin
+export NIFI_HOME=/Users/linh/Downloads/Setups/nifi-2.0.0-M4
+export PATH=$PATH:$NIFI_HOME/bin 
+export FLINK_HOME=/Users/linh/Downloads/Setups/flink-1.20.0
+export PATH=$PATH:$FLINK_HOME/bin
+export PATH=/Users/linh/.config/bin:$FLINK_HOME/bin:$PATH
