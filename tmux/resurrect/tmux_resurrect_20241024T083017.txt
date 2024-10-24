@@ -1,0 +1,168 @@
+pane	config	0	0	:	0	npm exec	:/home/linh/Downloads/Setups/kafka_2.13-3.8.0	0	zsh	:
+pane	config	0	0	:	1	linh	:/home/linh/Downloads/Setups	0	zsh	:
+pane	config	0	0	:	2	linh	:/home/linh/.config	0	zsh	:
+pane	config	0	0	:	3	linh	:/home/linh/Downloads/Setups	0	zsh	:
+pane	config	0	0	:	4	linh	:/home/linh/.config	1	zsh	:
+pane	config	1	0	:-	0	linh	:/home/linh/Downloads/Setups/hbase-2.6.0	1	java	:/usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.fc40.x86_64/bin/java -Dproc_shell -XX:OnOutOfMemoryError=kill -9 %p -XX:+UseG1GC -Djava.util.logging.config.class=org.apache.hadoop.hbase.logging.JulToSlf4jInitializer -Dorg.apache.hbase.thirdparty.io.netty.tryReflectionSetAccessible=true --add-modules jdk.unsupported --add-opens java.base/java.io=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-exports java.base/jdk.internal.misc=ALL-UNNAMED --add-exports java.security.jgss/sun.security.krb5=ALL-UNNAMED --add-exports java.base/sun.net.dns=ALL-UNNAMED --add-exports java.base/sun.net.util=ALL-UNNAMED -Dhbase.log.dir=/home/linh/Downloads/Setups/hbase-2.6.0/bin/../logs -Dhbase.log.file=hbase.log -Dhbase.home.dir=/home/linh/Downloads/Setups/hbase-2.6.0/bin/.. -Dhbase.id.str= -Dhbase.root.logger=INFO,console -Dhbase.security.logger=INFO,NullAppender org.jruby.JarBootstrapMain
+pane	config	1	0	:-	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/docker-compose/04.postgres-pgadmin	0	zsh	:
+pane	config	2	1	:*	0	linh	:/home/linh/.config	0	nvim	:nvim /home/linh/.tmux.conf
+pane	config	2	1	:*	1	VTP-LINHNV46	:/home/linh/.config	1	zsh	:
+pane	global	0	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/news/vtp-news-web	0	zsh	:
+pane	global	0	0	:-	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/news/vtp-news-web	1	zsh	:
+pane	global	0	0	:-	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/news/vtp-news-web	0	zsh	:
+pane	global	1	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/oms-core-service	1	nvim	:nvim .
+pane	global	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/oms-core-service	0	zsh	:
+pane	global	1	0	:	2	linh	:/opt	0	zsh	:
+pane	global	2	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-pricing-service	0	zsh	:
+pane	global	2	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-pricing-service	1	zsh	:
+pane	global	2	0	:	2	linh	:/home/linh/workspace/Gitlabs/global/tms-pricing-service	0	zsh	:
+pane	global	2	0	:	3	linh	:/home/linh/workspace/Gitlabs/global/tms-pricing-service	0	zsh	:
+pane	global	2	0	:	4	linh	:/home/linh/workspace/Gitlabs/global/tms-pricing-service	0	zsh	:
+pane	global	4	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-receiving-service	1	nvim	:nvim .
+pane	global	4	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-receiving-service	0	zsh	:
+pane	global	4	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-receiving-service	0	zsh	:
+pane	global	5	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-delivery-service	0	zsh	:
+pane	global	5	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-delivery-service	1	zsh	:
+pane	global	5	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-delivery-service	0	zsh	:
+pane	global	6	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-sorting-service	0	zsh	:
+pane	global	6	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-sorting-service	1	zsh	:
+pane	global	6	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-sorting-service	0	zsh	:
+pane	global	7	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/vtp-user-service	0	nvim	:nvim .
+pane	global	7	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/vtp-user-service	1	zsh	:
+pane	global	7	0	:	2	linh	:/home/linh/workspace/Gitlabs/global/vtp-user-service/tms-common	0	zsh	:
+pane	global	8	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-handover-service	0	nvim	:nvim .
+pane	global	8	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-handover-service	1	zsh	:
+pane	global	8	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-handover-service	0	zsh	:
+pane	global	9	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-docs	1	zsh	:
+pane	global	10	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-upload-image-service	1	zsh	:
+pane	global	10	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-upload-image-service	0	zsh	:
+pane	global	10	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-upload-image-service	0	zsh	:
+pane	global	11	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-configuration-service	1	zsh	:
+pane	global	11	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-configuration-service	0	zsh	:
+pane	global	11	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-configuration-service	0	zsh	:
+pane	global	12	0	:	0	linh	:/home/linh/workspace/Gitlabs/global/tms-report-service	1	zsh	:
+pane	global	12	0	:	1	linh	:/home/linh/workspace/Gitlabs/global/tms-report-service	0	zsh	:
+pane	global	12	0	:	2	linh	:/home/linh/workspace/Gitlabs/global/tms-report-service	0	zsh	:
+pane	global	13	1	:*	0	linh	:/home/linh/workspace/Gitlabs/global/global-task	0	zsh	:
+pane	global	13	1	:*	1	linh	:/home/linh/workspace/Gitlabs/global/global-task	0	zsh	:
+pane	global	13	1	:*	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/news/vtp-news-web	0	zsh	:
+pane	global	13	1	:*	3	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/news/vtp-news-web	0	zsh	:
+pane	global	13	1	:*	4	VTP-LINHNV46	:/home/linh	1	evince	:evince apache_hbase_reference_guide.pdf
+pane	global	14	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-dest-service	1	zsh	:
+pane	global	14	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-dest-service	0	zsh	:
+pane	global	14	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-dest-service	0	zsh	:
+pane	global	15	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/vtp-keycloak	1	zsh	:
+pane	global	16	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/tms-tracking-service	0	nvim	:nvim .
+pane	global	16	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global	1	zsh	:
+pane	oms	0	0	:	0	linh	:/home/linh/workspace/Gitlabs/oms/e-commerce	1	zsh	:
+pane	oms	0	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms/e-commerce	0	zsh	:
+pane	oms	0	0	:	2	linh	:/home/linh/workspace/Gitlabs/oms/e-commerce	0	zsh	:
+pane	oms	1	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	1	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	1	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	2	1	:*	0	linh	:/home/linh	1	zsh	:
+pane	oms	2	1	:*	1	linh	:/home/linh	0	zsh	:
+pane	oms	2	1	:*	2	linh	:/home/linh	0	zsh	:
+pane	oms	3	0	:-	0	linh	:/home/linh	1	zsh	:
+pane	oms	3	0	:-	1	linh	:/home/linh	0	zsh	:
+pane	oms	3	0	:-	2	linh	:/home/linh	0	zsh	:
+pane	oms	4	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	4	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	4	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	5	0	:	0	linh	:/home/linh	1	nvim	:nvim /home/linh/.pgpass
+pane	oms	5	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	5	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	6	0	:	0	linh	:/home/linh	0	zsh	:
+pane	oms	6	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	6	0	:	2	linh	:/home/linh	1	zsh	:
+pane	oms	7	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	7	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	7	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	8	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	8	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	8	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	9	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	9	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	9	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	10	0	:	0	linh	:/home/linh	1	zsh	:
+pane	oms	10	0	:	1	linh	:/home/linh	0	zsh	:
+pane	oms	10	0	:	2	linh	:/home/linh	0	zsh	:
+pane	oms	11	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms/e-commerce	1	nvim	:nvim .
+pane	omsRemake	0	0	:	0	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	0	0	:	1	linh	:/home/linh	1	zsh	:
+pane	omsRemake	0	0	:	2	linh	:/home/linh	0	zsh	:
+pane	omsRemake	0	0	:	3	linh	:/home/linh	0	zsh	:
+pane	omsRemake	1	0	:	0	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	1	nvim	:nvim Oms-sizing.tex
+pane	omsRemake	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	1	0	:	2	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	1	0	:	3	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new	0	zsh	:
+pane	omsRemake	1	0	:	4	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	omsRemake	1	0	:	5	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	omsRemake	1	0	:	6	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	2	0	:	0	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-high-tps	1	nvim	:nvim .
+pane	omsRemake	2	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-high-tps	0	zsh	:
+pane	omsRemake	2	0	:	2	linh	:/home/linh	0	zsh	:
+pane	omsRemake	3	0	:	0	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-location/deployment	1	nvim	:nvim country.sql
+pane	omsRemake	3	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-location/deployment	0	zsh	:
+pane	omsRemake	3	0	:	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	4	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	1	zsh	:
+pane	omsRemake	4	0	:-	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	4	0	:-	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	4	0	:-	3	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	4	0	:-	4	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	4	0	:-	5	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	5	1	:*	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/platform-as-doc	1	nvim	:nvim /home/linh/.config/alacritty/alacritty.toml
+pane	omsRemake	5	1	:*	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	5	1	:*	2	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	5	1	:*	3	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	0	zsh	:
+pane	omsRemake	6	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-location/deployment	0	nvim	:nvim administrative_division_2024Oct11.sql
+pane	omsRemake	6	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-location/deployment	1	zsh	:
+pane	omsRemake	7	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-sites	0	nvim	:nvim .
+pane	omsRemake	7	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-sites	0	zsh	:
+pane	omsRemake	7	0	:	2	VTP-LINHNV46	:/usr/lib/jvm	1	zsh	:
+pane	omsRemake	8	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-common	1	zsh	:
+pane	tutorial	0	1	:*	0	linh	:/home/linh/.password-store	0	zsh	:
+pane	tutorial	0	1	:*	1	linh	:/home/linh	1	zsh	:
+pane	tutorial	0	1	:*	2	linh	:/home/linh	0	zsh	:
+window	config	0	:kafka	0	:	feb4,232x64,0,0{116x64,0,0[116x16,0,0,1,116x15,0,17,2,116x15,0,33,3,116x15,0,49,4],115x64,117,0,5}	off
+window	config	1	:java	0	:-	70d7,232x64,0,0[232x49,0,0,6,232x14,0,50,7]	:
+window	config	2	:zsh	1	:*	5c02,232x64,0,0{117x64,0,0,8,114x64,118,0,9}	:
+window	global	0	:parent	0	:-	7ef2,232x64,0,0{98x64,0,0,10,133x64,99,0[133x51,99,0,11,133x12,99,52,12]}	off
+window	global	1	:oms-core	0	:	e773,232x64,0,0[232x45,0,0,13,232x18,0,46{116x18,0,46,14,115x18,117,46,15}]	off
+window	global	2	:pricing	0	:	7bb4,232x64,0,0[232x45,0,0,16,232x18,0,46{109x18,0,46,17,60x18,110,46,18,61x18,171,46[61x9,171,46,19,61x8,171,56,20]}]	off
+window	global	4	:receiving	0	:	244c,232x64,0,0[232x51,0,0,21,232x12,0,52{116x12,0,52,22,115x12,117,52,23}]	off
+window	global	5	:delivery	0	:	4459,232x64,0,0[232x51,0,0,24,232x12,0,52{116x12,0,52,25,115x12,117,52,26}]	off
+window	global	6	:sorting	0	:	1296,232x64,0,0[232x50,0,0,27,232x13,0,51{116x13,0,51,28,115x13,117,51,29}]	off
+window	global	7	:user	0	:	6f02,232x64,0,0[232x43,0,0,30,232x20,0,44{116x20,0,44,31,115x20,117,44,32}]	off
+window	global	8	:handover	0	:	93ce,232x64,0,0[232x39,0,0,33,232x24,0,40{116x24,0,40,34,115x24,117,40,35}]	off
+window	global	9	:docs	0	:	6066,232x64,0,0,36	off
+window	global	10	:upload	0	:	c2ed,232x64,0,0[232x45,0,0,37,232x18,0,46{121x18,0,46,38,110x18,122,46,39}]	off
+window	global	11	:configuration	0	:	244c,232x64,0,0[232x51,0,0,40,232x12,0,52{116x12,0,52,41,115x12,117,52,42}]	off
+window	global	12	:report	0	:	c94a,232x64,0,0[232x46,0,0,43,232x17,0,47{116x17,0,47,44,115x17,117,47,45}]	off
+window	global	13	:task	1	:*	799c,232x64,0,0[232x44,0,0,46,232x19,0,45{116x19,0,45,47,57x19,117,45,124,57x19,175,45[57x9,175,45,125,57x9,175,55,126]}]	off
+window	global	14	:dest	0	:	729c,232x64,0,0[232x50,0,0,48,232x13,0,51{116x13,0,51,49,115x13,117,51,50}]	off
+window	global	15	:keycloak	0	:	6062,232x64,0,0,51	off
+window	global	16	:tracking	0	:	2fdf,232x64,0,0[232x46,0,0,52,232x17,0,47,53]	off
+window	oms	0	:order-adap	0	:	fcf1,232x64,0,0[232x48,0,0,54,232x15,0,49{116x15,0,49,55,115x15,117,49,56}]	off
+window	oms	1	:or-order-core	0	:	a29c,232x64,0,0[232x50,0,0,57,232x13,0,51{116x13,0,51,58,115x13,117,51,59}]	off
+window	oms	2	:root	1	:*	27f1,232x64,0,0[232x53,0,0,60,232x10,0,54{116x10,0,54,61,115x10,117,54,62}]	off
+window	oms	3	:management	0	:-	d77e,232x64,0,0[232x45,0,0,63,232x18,0,46{116x18,0,46,64,115x18,117,46,65}]	off
+window	oms	4	:tracking	0	:	f78b,232x64,0,0[232x45,0,0,66,232x18,0,46{116x18,0,46,67,115x18,117,46,68}]	off
+window	oms	5	:keycloakExtra	0	:	a746,232x64,0,0[232x33,0,0,69,232x30,0,34{117x30,0,34,70,114x30,118,34,71}]	off
+window	oms	6	:document	0	:	f94c,232x64,0,0[232x46,0,0,72,232x17,0,47{116x17,0,47,73,115x17,117,47,74}]	off
+window	oms	7	:customer	0	:	195a,232x64,0,0[232x46,0,0,75,232x17,0,47{116x17,0,47,76,115x17,117,47,77}]	off
+window	oms	8	:template	0	:	d964,232x64,0,0[232x46,0,0,78,232x17,0,47{116x17,0,47,79,115x17,117,47,80}]	off
+window	oms	9	:nginx	0	:	777a,232x64,0,0[232x45,0,0,81,232x18,0,46{116x18,0,46,82,115x18,117,46,83}]	off
+window	oms	10	:location	0	:	1296,232x64,0,0[232x50,0,0,84,232x13,0,51{116x13,0,51,85,115x13,117,51,86}]	off
+window	oms	11	:ecommerce	0	:	e069,232x64,0,0,87	off
+window	omsRemake	0	:oms-common	0	:	2072,232x64,0,0[232x45,0,0,88,232x18,0,46{116x18,0,46,89,115x18,117,46[115x9,117,46,90,115x8,117,56,91]}]	off
+window	omsRemake	1	:documentation	0	:	ec5e,232x64,0,0[232x45,0,0,92,232x18,0,46{92x18,0,46,93,83x18,93,46[83x12,93,46,94,83x5,93,59,95],55x18,177,46[55x12,177,46,96,55x1,177,59,97,55x3,177,61,98]}]	off
+window	omsRemake	2	:high-tps	0	:	fc39,232x64,0,0[232x44,0,0,99,232x19,0,45{116x19,0,45,100,115x19,117,45,101}]	off
+window	omsRemake	3	:adapter	0	:	0ace,232x64,0,0[232x42,0,0,102,232x21,0,43{116x21,0,43,103,115x21,117,43,104}]	off
+window	omsRemake	4	:internal	0	:-	f87e,232x64,0,0{116x64,0,0[116x38,0,0,105,116x16,0,39,106,116x8,0,56,107],115x64,117,0[115x24,117,0,108,115x20,117,25,109,115x18,117,46,110]}	off
+window	omsRemake	5	:warehouse	1	:*	e666,232x64,0,0{116x64,0,0,111,115x64,117,0[115x32,117,0,112,115x15,117,33,113,115x15,117,49,114]}	off
+window	omsRemake	6	:location	0	:	ef26,232x64,0,0{116x64,0,0,115,115x64,117,0,116}	off
+window	omsRemake	7	:oms-sites	0	:	730d,232x64,0,0[232x44,0,0,117,232x19,0,45{116x19,0,45,118,115x19,117,45,119}]	off
+window	omsRemake	8	:zsh	0	:	b060,232x64,0,0,120	:
+window	tutorial	0	:zsh	1	:*	deb5,232x64,0,0[232x49,0,0,121,232x14,0,50{116x14,0,50,122,115x14,117,50,123}]	:
+state	config	global
