@@ -9,10 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
-export HISTFILE=~/.config/.oh-my-zsh/.zsh_history
-export HISTSIZE=1000000          # Number of commands to remember in history
 
-export SAVEHIST=1000000          # Number of lines to save in the history file
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -88,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
@@ -105,36 +102,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/linh/zsh-autosuggestions/zsh-autosuggestions.zsh
-if [ -z "$KAFKA_CLUSTER_ID" ]; then
-  export KAFKA_CLUSTER_ID="$(~/Downloads/Setups/kafka_2.13-3.8.0/bin/kafka-storage.sh random-uuid)"
-fi
-alias pip=pip3
-#export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-21.0.6.0.7-6.fc40
-#export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
-#export JAVA_HOME=/usr/lib/jvm/java-11-openjdk  
-export JAVA_HOME=/home/linh/Downloads/Setups/jdk/jdk1.8.0_202
-export PLANTUML_JAR=/home/linh/Downloads/Setups/plantuml-1.2024.6.jar
-export PATH=$PATH:/home/linh/Downloads/uctags-2024.08.17-linux-x86_64/bin:/home/linh/.config/bin:/home/linh/Downloads/gradle-8.10/bin:/home/linh/Downloads/Setups/kafka_2.13-3.8.0/bin:/home/linh/.local/bin
+source ~/zsh-autosuggestions/zsh-autosuggestions.zsh
+#export JAVA_HOME=/Users/linh/Downloads/Setups/jdk-21.0.5.jdk/Contents/Home
+export JAVA_HOME=/Users/linh/Downloads/Setups/jdk-11.0.25.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
 
-export HIVE_VERSION=4.0.0
-export REDIS_PASSWORD=bitnami
-export REDISCLI_AUTH=bitnami
-export SPRING_CLI=~/Downloads/Setups/spring-3.3.4
-export PATH=$PATH:$SPRING_CLI/bin
 
-export FLINK_HOME=/home/linh/Downloads/Setups/flink-1.20.0
-#export FLINK_HOME=/home/linh/Downloads/Setups/flink-1.5.0
-export PATH=$PATH:$FLINK_HOME/bin/
+ export HADOOP_HOME=/Users/linh/Downloads/Setups/hadoop-3.4.0
+ export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
+ export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+ export HADOOP_COMMON_HOME=$HADOOP_HOME
+ export HADOOP_HDFS_HOME=$HADOOP_HOME
+ export HADOOP_MAPRED_HOME=$HADOOP_HOME
+ export HADOOP_YARN_HOME=$HADOOP_HOME
 
-export http_proxy="http://10.60.117.103:8085"
-export https_proxy="https://10.60.117.103:8085"
-export no_proxy="git.viettelpost.vn"
-export MAVEN_HOME=/home/linh/Downloads/Setups/apache-maven-3.9.9
-export PATH=$MAVEN_HOME/bin:$PATH
-alias mvn=$MAVEN_HOME/bin/mvn
+alias python=python3
+export HBASE_HOME=/Users/linh/Downloads/Setups/hbase-2.6.2
+export PATH=$HBASE_HOME/bin:/Users/linh/.config/bin:$PATH
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/linh/.lmstudio/bin"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:/Users/linh/Downloads/Setups/kafka_2.13-3.9.0/bin:$PATH"
 
-export ROBUSTA_PASS=R0busta@2024
-
-export HBASE_HOME=/home/linh/Downloads/Setups/hbase-2.6.0
-export PATH=$HBASE_HOME/bin:$PATH
+export ZOOKEEPER_HOME=/Users/linh/Downloads/Setups/apache-zookeeper-3.8.4-bin
+export PATH=$ZOOKEEPER_HOME/bin:$PATH
