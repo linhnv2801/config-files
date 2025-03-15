@@ -1,0 +1,36 @@
+grouped_session	oms	omsRemake	:	:0
+pane	config	0	0	:	0	192.168.0.102.non-exists.ptr.local	:/Users/linh/Downloads/Setups	1	htop	:htop
+pane	config	1	0	:	0	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups	0	zsh	:
+pane	config	1	0	:	1	linhs-MacBook-Air.local	:/Users/linh/Downloads	1	zsh	:
+pane	config	2	0	:	0	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/kafka_2.13-3.9.0	1	zsh	:
+pane	config	2	0	:	1	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/kafka_2.13-3.9.0	0	zsh	:
+pane	config	2	0	:	2	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/kafka_2.13-3.9.0	0	zsh	:
+pane	config	2	0	:	3	linhs-MacBook-Air.local	:/Users/linh/Downloads	0	zsh	:
+pane	config	2	0	:	4	linhs-MacBook-Air.local	:/Users/linh/Downloads	0	nvim	:nvim /Users/linh/.zshrc
+pane	config	2	0	:	5	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/hbase-2.6.2	0	zsh	:
+pane	config	3	0	:	0	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/hbase-2.6.2/conf	0	nvim	:nvim hbase-env.sh
+pane	config	3	0	:	1	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/hbase-2.6.2	0	zsh	:
+pane	config	3	0	:	2	linhs-MacBook-Air.local	:/Users/linh/Downloads	0	zsh	:
+pane	config	3	0	:	3	linhs-MacBook-Air.local	:/Users/linh/hbase_data	1	zsh	:
+pane	config	4	1	:*	0	linhs-MacBook-Air.local	:/Users/linh/Downloads/Setups/hadoop-3.4.0	0	nvim	:nvim etc/hadoop/core-site.xml
+pane	config	4	1	:*	1	linhs-MacBook-Air.local	:/Users/linh	1	zsh	:
+pane	config	5	0	:-	0	linhs-MacBook-Air.local	:/Users/linh/Downloads	1	zsh	:
+pane	global	0	1	:*	0	192.168.0.102.non-exists.ptr.local	:/Users/linh	1	zsh	:
+pane	omsRemake	0	1	:*	0	192.168.0.101.non-exists.ptr.local	:/Users/linh/Gitlabs/oms-documentation	1	zsh	:
+pane	omsRemake	0	1	:*	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	2	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	3	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	4	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	1	0	:-	0	linhs-MacBook-Air.local	:/Users/linh	1	zsh	:
+pane	tutorial	0	1	:*	0	192.168.0.102.non-exists.ptr.local	:/Users/linh	1	zsh	:
+window	config	0	:htop	0	:	cc7e,169x47,0,0,1	:
+window	config	1	:posrgres	0	:	21d9,169x47,0,0{84x47,0,0,2,84x47,85,0,3}	off
+window	config	2	:kafka	0	:	df2c,169x47,0,0{84x47,0,0[84x11,0,0,4,84x11,0,12,5,84x11,0,24,6,84x11,0,36,7],84x47,85,0[84x23,85,0,8,84x23,85,24,9]}	off
+window	config	3	:hbase	0	:	147e,169x47,0,0{84x47,0,0,10,84x47,85,0[84x16,85,0,11,84x10,85,17,12,84x19,85,28,13]}	off
+window	config	4	:hadoop	1	:*	2ff9,169x47,0,0{84x47,0,0,14,84x47,85,0,15}	off
+window	config	5	:zsh	0	:-	6675,169x47,0,0,16	:
+window	global	0	:zsh	1	:*	6676,169x47,0,0,17	:
+window	omsRemake	0	:zsh	1	:*	cdb8,169x47,0,0[169x28,0,0,18,169x18,0,29{84x18,0,29[84x9,0,29,19,84x8,0,39,20],84x18,85,29[84x9,85,29,21,84x8,85,39,22]}]	:
+window	omsRemake	1	:zsh	0	:-	e672,169x47,0,0,23	:
+window	tutorial	0	:zsh	1	:*	e673,169x47,0,0,24	:
+state	config	tutorial

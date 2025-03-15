@@ -1,0 +1,17 @@
+grouped_session	oms	omsRemake	:	:0
+pane	config	0	1	:*	0	192.168.0.102.non-exists.ptr.local	:/Users/linh/Downloads	1	zsh	:
+pane	config	0	1	:*	1	192.168.0.102.non-exists.ptr.local	:/Users/linh/Downloads	0	htop	:htop
+pane	global	0	1	:*	0	192.168.0.102.non-exists.ptr.local	:/Users/linh	1	zsh	:
+pane	omsRemake	0	1	:*	0	192.168.0.101.non-exists.ptr.local	:/Users/linh/Gitlabs/oms-documentation	1	zsh	:
+pane	omsRemake	0	1	:*	1	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	2	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	3	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	4	linhs-MacBook-Air.local	:/Users/linh/Gitlabs/oms-documentation	0	zsh	:
+pane	omsRemake	1	0	:-	0	linhs-MacBook-Air.local	:/Users/linh	1	zsh	:
+pane	tutorial	0	1	:*	0	192.168.0.102.non-exists.ptr.local	:/Users/linh	1	zsh	:
+window	config	0	:zsh	1	:*	1141,169x47,0,0{84x47,0,0,1,84x47,85,0,11}	:
+window	global	0	:zsh	1	:*	cc7f,169x47,0,0,2	:
+window	omsRemake	0	:zsh	1	:*	31e6,169x47,0,0[169x28,0,0,3,169x18,0,29{84x18,0,29[84x9,0,29,4,84x8,0,39,5],84x18,85,29[84x9,85,29,6,84x8,85,39,7]}]	:
+window	omsRemake	1	:zsh	0	:-	cc85,169x47,0,0,8	:
+window	tutorial	0	:zsh	1	:*	cc86,169x47,0,0,9	:
+state	config	tutorial
