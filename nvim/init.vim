@@ -70,8 +70,6 @@ Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'f-person/git-blame.nvim'
 " lua & third party sources -- See https://github.com/ms-jpq/coq.thirdparty
 " Need to **configure separately**
-Plug 'lervag/vimtex'
-Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 " - shell repl
 " - nvim lua api
@@ -94,30 +92,25 @@ Plug 'mfussenegger/nvim-dap'
 Plug 'habamax/vim-asciidoctor'
 Plug 'tpope/vim-dadbod'
 set encoding=UTF-8
-
-
+Plug 'kurotych/ccryptor.nvim'
 " Deps
 Plug 'stevearc/dressing.nvim'
 Plug 'nvim-lua/plenary.nvim'
-
 Plug 'MunifTanjim/nui.nvim'
 
 " Optional deps
-
 Plug 'nvim-tree/nvim-web-devicons' "or Plug 'echasnovski/mini.icons'
 Plug 'HakonHarnes/img-clip.nvim'
-
 Plug 'zbirenbaum/copilot.lua'
 
 " Yay
-Plug 'yetone/avante.nvim'
-
+Plug 'yetone/avante.nvim', { 'branch': 'main', 'do': ':AvanteBuild', 'on': 'AvanteAsk' }
 call plug#end()
 
 "nnoremap <C-d> :NERDTreeFocus<CR>
 nnoremap <C-k> :NERDTreeFind<CR>
 nnoremap <C-c> :NERDTreeClose<CR>
-nnoremap <C-f> :Ag -u<CR>
+nnoremap <C-f> :Ag<CR>
 nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-g> :NERDTreeToggle<CR>
  nnoremap <C-l> :ls<CR>
@@ -125,7 +118,7 @@ nnoremap <C-r> :NERDTreeRefreshRoot<CR>
  nnoremap <C-h> :bnext<CR>
  nnoremap <C-g> :FZF<CR>
  nnoremap <C-t> :terminal<CR>
-nnoremap <F5> :CocCommand prettier.formatFile<CR>
+nnoremap <C-F5> :CocCommand prettier.formatFile<CR>
 nnoremap <F6> :%!jq .<CR>
 nnoremap <F7> :MarkdownPreview<CR>
 nmap <F8> :TagbarToggle<CR>
@@ -259,8 +252,35 @@ filetype plugin indent on    " required
 let g:livepreview_previewer = 'evince'
 let g:livepreview_cursorhold_recompile = 1
 let g:plantuml_previewer_plantuml_url = 'http://www.plantuml.com/plantuml'
-command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+lua << EOF
+  require('packer').startup(function()
+    -- Add your plugins here
 
-" Use ag for FZF and include hidden files
-let $FZF_DEFAULT_COMMAND = 'ag -u --hidden --ignore .git -g ""'
+    -- Example: Packer can manage itself
+    use 'wbthomason/packer.nvim'
+
+
+	-- Add akinsho/git-conflict.nvim
+    use 'akinsho/git-conflict.nvim'
+	 -- Add yetone/avante.nvim
+    -- use 'yetone/avante.nvim'  -- Correct plugin name
+	use {
+	  "nacro90/omen.nvim",
+	  requires = {
+		"nvim-lua/telescope.nvim",
+		"nvim-lua/plenary.nvim",
+	  },
+	  config = function()
+		require("omen").setup()
+	  end
+	}
+	
+  end)
+EOF
+
+lua <<EOF
+require("ccryptor").setup({
+    dir_path = '/home/linh/secrets/'
+})
+EOF
 
