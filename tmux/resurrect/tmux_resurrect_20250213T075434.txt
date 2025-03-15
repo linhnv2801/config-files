@@ -1,0 +1,22 @@
+pane	oms	0	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	1	nvim	:nvim .
+pane	oms	0	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	0	zsh	:
+pane	oms	0	0	:	2	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	oms	0	0	:	3	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd/aggregates	0	zsh	:
+pane	oms	0	0	:	4	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/overview	0	zsh	:
+pane	oms	0	0	:	5	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	oms	0	0	:	6	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC/sequence	0	zsh	:
+pane	oms	0	0	:	7	linh	:/home/linh	0	evince	:evince Oms-documentation-hcc.pdf
+pane	oms	1	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/vtp/vtp-task	1	zsh	:
+pane	oms	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/vtp/vtp-task	0	zsh	:
+pane	oms	2	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/oms-core-service	1	nvim	:nvim .
+pane	oms	2	0	:-	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd	0	zsh	:
+pane	oms	2	0	:-	2	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	oms	3	1	:*	0	VTP-LINHNV46	:/home/linh/workspace/Githubs/plantuml-stdlib	1	nvim	:nvim .
+pane	oms	4	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon	0	zsh	:
+pane	oms	4	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon	1	zsh	:
+window	oms	0	:document	0	:	0987,213x57,0,0[213x39,0,0,1,213x17,0,40{55x17,0,40,2,53x17,56,40[53x9,56,40,3,53x7,56,50,4],103x17,110,40[103x13,110,40{51x13,110,40,5,51x13,162,40,6},103x3,110,54{51x3,110,54,7,51x3,162,54,8}]}]	off
+window	oms	1	:vtp-task	0	:	48f5,213x57,0,0[213x36,0,0,9,213x20,0,37,10]	off
+window	oms	2	:nvim	0	:-	ea6e,213x57,0,0[213x46,0,0,11,213x10,0,47{107x10,0,47,12,105x10,108,47,13}]	:
+window	oms	3	:plantuml	1	:*	6563,213x57,0,0,14	off
+window	oms	4	:	0	:	4832,213x57,0,0{106x57,0,0,15,106x57,107,0,16}	off
+state	oms	

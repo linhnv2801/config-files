@@ -1,0 +1,38 @@
+pane	Oms	0	1	:*	0	linh	:/home/linh/workspace/Gitlabs/vtp/e-commerce	0	nvim	:nvim .
+pane	Oms	0	1	:*	1	linh	:/home/linh/workspace/Gitlabs/vtp/e-commerce	1	zsh	:
+pane	Oms	0	1	:*	2	linh	:/home/linh/workspace/Gitlabs/vtp/e-commerce	0	zsh	:
+pane	Oms	1	0	:-	0	linh	:/home/linh/workspace/Gitlabs/vtp/vtp-grab-hiring	1	zsh	:
+pane	Oms	2	0	:	0	linh	:/home/linh/workspace/Gitlabs/vtp/grab-hiring-worker	1	zsh	:
+pane	config	0	1	:*	0	linh	:/home/linh	1	zsh	:
+pane	config	0	1	:*	1	linh	:/home/linh	0	zsh	:
+pane	global	0	1	:*	0	linh	:/home/linh/workspace/Gitlabs/global/global-task	0	nvim	:nvim .
+pane	global	0	1	:*	1	linh	:/home/linh/workspace/Gitlabs/global/global-task	1	zsh	:
+pane	global	0	1	:*	2	linh	:/home/linh/workspace/Gitlabs/global/global-task	0	zsh	:
+pane	omsRemake	0	1	:*	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation	0	nvim	:nvim .
+pane	omsRemake	0	1	:*	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation	0	zsh	:
+pane	omsRemake	0	1	:*	2	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/Details/Phase02	1	zsh	:
+pane	omsRemake	0	1	:*	3	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	0	1	:*	4	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/global	0	zsh	:
+pane	omsRemake	0	1	:*	5	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture	0	zsh	:
+pane	omsRemake	0	1	:*	6	linh	:/home/linh	0	evince	:evince architecture-proposed.pdf
+pane	omsRemake	0	1	:*	7	linh	:/home/linh	0	evince	:evince Oms-sizing-multisites.pdf
+pane	omsRemake	0	1	:*	8	linh	:/home/linh	0	evince	:evince architecture-overview.pdf
+pane	omsRemake	1	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-high-tps	1	zsh	:
+pane	omsRemake	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/vtp/vtp-task	0	zsh	:
+pane	omsRemake	2	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/oms-core-service	1	nvim	:nvim .
+pane	omsRemake	2	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd	0	zsh	:
+pane	omsRemake	2	0	:	2	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	omsRemake	3	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Githubs/plantuml-stdlib	1	nvim	:nvim .
+pane	omsRemake	4	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon/flag	1	zsh	:
+pane	omsRemake	4	0	:-	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon	0	zsh	:
+window	Oms	0	:ecommerce	1	:*	41f8,213x57,0,0[213x41,0,0,1,213x15,0,42{106x15,0,42,2,106x15,107,42,3}]	off
+window	Oms	1	:grab	0	:-	ca61,213x57,0,0,4	off
+window	Oms	2	:grab-worker	0	:	ca62,213x57,0,0,5	off
+window	config	0	:zsh	1	:*	9a98,213x57,0,0{106x57,0,0,6,106x57,107,0,7}	:
+window	global	0	:zsh	1	:*	e1c2,213x57,0,0[213x41,0,0,8,213x15,0,42{106x15,0,42,30,106x15,107,42,31}]	:
+window	omsRemake	0	:document	1	:*	3da7,213x57,0,0[213x43,0,0,9,213x13,0,44{56x13,0,44[56x6,0,44,10,56x6,0,51,25],53x13,57,44[53x6,57,44,11,53x6,57,51,29],102x13,111,44[102x6,111,44{50x6,111,44,13,51x6,162,44,14},102x6,111,51{50x6,111,51,15,51x6,162,51,16}]}]	off
+window	omsRemake	1	:high-tps	0	:	43a4,213x57,0,0[213x36,0,0,17,213x20,0,37,18]	off
+window	omsRemake	2	:nvim	0	:	5a8e,213x57,0,0[213x46,0,0,19,213x10,0,47{107x10,0,47,20,105x10,108,47,21}]	:
+window	omsRemake	3	:plantuml	0	:	e561,213x57,0,0,22	off
+window	omsRemake	4	:	0	:-	c830,213x57,0,0{106x57,0,0,23,106x57,107,0,24}	off
+state	global	omsRemake

@@ -1,0 +1,22 @@
+pane	oms	0	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	1	nvim	:nvim .
+pane	oms	0	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	0	zsh	:
+pane	oms	0	0	:	2	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	oms	0	0	:	3	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd/aggregates	0	zsh	:
+pane	oms	0	0	:	4	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/overview	0	zsh	:
+pane	oms	0	0	:	5	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	oms	0	0	:	6	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC/sequence	0	zsh	:
+pane	oms	0	0	:	7	linh	:/home/linh	0	evince	:evince Oms-documentation-hcc.pdf
+pane	oms	1	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/vtp/vtp-task	1	zsh	:
+pane	oms	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/vtp/vtp-task	0	zsh	:
+pane	oms	2	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/oms-core-service	1	nvim	:nvim .
+pane	oms	2	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd	0	zsh	:
+pane	oms	2	0	:	2	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	oms	3	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Githubs/plantuml-stdlib	1	nvim	:nvim .
+pane	oms	4	1	:*	0	VTP-LINHNV46	:/home/linh	0	sudo	:sudo dnf install bind-utils -y
+pane	oms	4	1	:*	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	1	zsh	:
+window	oms	0	:document	0	:	b1ff,213x57,0,0[213x40,0,0,1,213x16,0,41{54x16,0,41,2,53x16,55,41[53x8,55,41,3,53x7,55,50,4],104x16,109,41[104x12,109,41{52x12,109,41,5,51x12,162,41,6},104x3,109,54{52x3,109,54,7,51x3,162,54,8}]}]	off
+window	oms	1	:vtp-task	0	:	48f5,213x57,0,0[213x36,0,0,9,213x20,0,37,10]	off
+window	oms	2	:nvim	0	:	ea6e,213x57,0,0[213x46,0,0,11,213x10,0,47{107x10,0,47,12,105x10,108,47,13}]	:
+window	oms	3	:	0	:-	6563,213x57,0,0,14	off
+window	oms	4	:	1	:*	4832,213x57,0,0{106x57,0,0,15,106x57,107,0,16}	off
+state	oms	

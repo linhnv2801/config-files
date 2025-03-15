@@ -1,0 +1,25 @@
+pane	config	0	1	:*	0	linh	:/home/linh/Downloads/Setups/hbase-2.6.0	1	nvim	:nvim /home/linh/.tmux.conf
+pane	config	0	1	:*	1	root@hbase: /	:/home/linh/Downloads/Setups/hbase-2.6.0	0	docker	:docker exec -it 44hbase-hbase-1 /bin/bash
+pane	omsRemake	0	0	:-	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/Api-docs/new	1	nvim	:nvim .
+pane	omsRemake	0	0	:-	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC	0	zsh	:
+pane	omsRemake	0	0	:-	2	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	0	0	:-	3	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd/aggregates	0	zsh	:
+pane	omsRemake	0	0	:-	4	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon/flag	0	zsh	:
+pane	omsRemake	0	0	:-	5	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/sizing	0	zsh	:
+pane	omsRemake	0	0	:-	6	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/Plan/HCC/sequence	0	zsh	:
+pane	omsRemake	0	0	:-	7	linh	:/home/linh	0	zsh	:
+pane	omsRemake	1	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/vtp/vtp-task	1	zsh	:
+pane	omsRemake	1	0	:	1	linh	:/home/linh/workspace/Gitlabs/vtp/vtp-task	0	zsh	:
+pane	omsRemake	2	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/global/oms-core-service	1	nvim	:nvim .
+pane	omsRemake	2	0	:	1	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/ddd	0	zsh	:
+pane	omsRemake	2	0	:	2	VTP-LINHNV46	:/home/linh	0	zsh	:
+pane	omsRemake	3	1	:*	0	VTP-LINHNV46	:/home/linh/workspace/Githubs/plantuml-stdlib	1	nvim	:nvim .
+pane	omsRemake	4	0	:	0	VTP-LINHNV46	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon/flag	1	zsh	:
+pane	omsRemake	4	0	:	1	linh	:/home/linh/workspace/Gitlabs/oms-remake/oms-documentation/architecture/new/icon	0	zsh	:
+window	config	0	:nvim	1	:*	4834,213x57,0,0{106x57,0,0,17,106x57,107,0,18}	:
+window	omsRemake	0	:document	0	:-	f8f0,213x57,0,0[213x43,0,0,1,213x13,0,44{56x13,0,44,2,53x13,57,44[53x6,57,44,3,53x6,57,51,4],102x13,111,44[102x6,111,44{50x6,111,44,5,51x6,162,44,6},102x6,111,51{50x6,111,51,7,51x6,162,51,8}]}]	off
+window	omsRemake	1	:vtp-task	0	:	48f5,213x57,0,0[213x36,0,0,9,213x20,0,37,10]	off
+window	omsRemake	2	:nvim	0	:	ea6e,213x57,0,0[213x46,0,0,11,213x10,0,47{107x10,0,47,12,105x10,108,47,13}]	:
+window	omsRemake	3	:plantuml	1	:*	6563,213x57,0,0,14	off
+window	omsRemake	4	:	0	:	4832,213x57,0,0{106x57,0,0,15,106x57,107,0,16}	off
+state	omsRemake	config
